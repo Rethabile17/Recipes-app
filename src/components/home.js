@@ -17,26 +17,22 @@ function Home() {
       <div>
         {recipes.map((recipe, index) => (
           <div key={index}>
-            <h2>{recipe.recipe['food-name']}</h2>
-            <img src={recipe.recipe.image} alt={recipe.recipe['food-name']} />
+            <h2>{recipe.foodName}</h2>
+            <img src={recipe.image} alt={recipe.foodName} />
             <h3>Ingredients:</h3>
             <ul>
-              {recipe.recipe.ingredients.map((ingredient, i) => (
-                <li key={i}>{ingredient.item}</li>
+              {recipe.ingredients.map((ingredient, i) => (
+                <li key={i}>{ingredient}</li>
               ))}
             </ul>
             <h3>Method:</h3>
             <ol>
-              {recipe.recipe.method.map((step, j) => (
-                <li key={j}>{Object.values(step)}</li>
+              {recipe.method.map((step, j) => (
+                <li key={j}>{step}</li>
               ))}
             </ol>
             <h3>Serving Suggestions:</h3>
-            <ul>
-              {recipe.recipe.serve.map((serve, k) => (
-                <li key={k}>{serve.serve}</li>
-              ))}
-            </ul>
+            <p>{recipe.serve}</p>
           </div>
         ))}
       </div>

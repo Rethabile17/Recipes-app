@@ -1,347 +1,234 @@
 [
-    {
-      "recipe": {
-        "food-name": "French toast",
-        "ingredients": [
-          {"item": "4 large eggs"},
-          {"item": "2/3 cup milk"},
-          {"item": "2 teaspoons cinnamon"},
-          {"item": "8 thick slices 2-day-old bread (better if slightly stale)"},
-          {"item": "Butter (can substitute vegetable oil)"},
-          {"item": "Maple syrup"},
-          {"item": "2 teaspoons freshly grated orange zest"},
-          {"item": "1/4 cup triple sec (optional)"},
-          {"item": "Fresh berries"}
-        ],
-        "method": [
-          {
-            "step 1": "In a medium bowl, whisk together the eggs, milk, and cinnamon. Stir in the orange zest and/or triple sec if using. Whisk the mixture until well blended and pour into a shallow bowl, wide enough to place a slice of the bread you will be using."
-          },
-          {
-            "step 2": "Place each slice of bread into the milk-egg mixture, allowing the bread to soak in some of it."
-          },
-          {
-            "step 3": "Melt some butter in a large skillet over medium-high heat. Shake off the excess egg mixture from the bread and place the bread slices onto the skillet. Brown on one side, then flip and brown the other side."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Serve the French toast hot with butter, maple syrup, and/or fresh berries."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Pancakes",
-        "ingredients": [
-          {"item": "1 1/2 cups all-purpose flour"},
-          {"item": "3 1/2 teaspoons baking powder"},
-          {"item": "1 teaspoon salt"},
-          {"item": "1 tablespoon white sugar"},
-          {"item": "1 1/4 cups milk"},
-          {"item": "1 egg"},
-          {"item": "3 tablespoons butter, melted"},
-          {"item": "1 teaspoon vanilla extract"},
-          {"item": "Butter or oil for cooking"},
-          {"item": "Maple syrup"},
-          {"item": "Fresh fruit (optional)"}
-        ],
-        "method": [
-          {
-            "step 1": "In a large bowl, sift together the flour, baking powder, salt, and sugar."
-          },
-          {
-            "step 2": "Make a well in the center and pour in the milk, egg, melted butter, and vanilla extract. Mix until smooth."
-          },
-          {
-            "step 3": "Heat a lightly oiled griddle or frying pan over medium-high heat."
-          },
-          {
-            "step 4": "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Serve the pancakes warm with butter, maple syrup, and fresh fruit if desired."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Grilled Cheese Sandwich",
-        "ingredients": [
-          {"item": "4 slices of bread"},
-          {"item": "4 slices of cheese (cheddar, American, etc.)"},
-          {"item": "Butter"}
-        ],
-        "method": [
-          {
-            "step 1": "Butter one side of each slice of bread."
-          },
-          {
-            "step 2": "Place two slices, buttered side down, on a skillet over medium heat. Add cheese slices on top."
-          },
-          {
-            "step 3": "Top with the other slices of bread, buttered side up. Cook until golden brown and the cheese is melted, flipping once."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Cut in half and serve hot."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Chicken Curry",
-        "ingredients": [
-          {"item": "500g chicken breast, cut into cubes"},
-          {"item": "1 large onion, chopped"},
-          {"item": "2 cloves garlic, minced"},
-          {"item": "1-inch piece ginger, grated"},
-          {"item": "2 tablespoons curry powder"},
-          {"item": "1 can coconut milk"},
-          {"item": "1 can diced tomatoes"},
-          {"item": "2 tablespoons vegetable oil"},
-          {"item": "Salt"},
-          {"item": "Pepper"},
-          {"item": "Cilantro (for garnish)"}
-        ],
-        "method": [
-          {
-            "step 1": "Heat oil in a pan over medium heat. Add onion, garlic, and ginger. Sauté until onion is translucent."
-          },
-          {
-            "step 2": "Add chicken cubes and cook until browned."
-          },
-          {
-            "step 3": "Stir in curry powder and cook for 1-2 minutes."
-          },
-          {
-            "step 4": "Add coconut milk and diced tomatoes. Bring to a boil, then reduce heat and simmer for 15-20 minutes."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Serve hot with rice and garnish with fresh cilantro."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Beef Tacos",
-        "ingredients": [
-          {"item": "500g ground beef"},
-          {"item": "1 onion, chopped"},
-          {"item": "2 cloves garlic, minced"},
-          {"item": "1 packet taco seasoning"},
-          {"item": "8 taco shells"},
-          {"item": "1 cup shredded lettuce"},
-          {"item": "1 cup diced tomatoes"},
-          {"item": "1/2 cup shredded cheese"},
-          {"item": "Sour cream (optional)"},
-          {"item": "Salsa (optional)"},
-          {"item": "Olive oil"}
-        ],
-        "method": [
-          {
-            "step 1": "Heat oil in a pan over medium heat. Add onion and garlic, sauté until soft."
-          },
-          {
-            "step 2": "Add ground beef and cook until browned. Drain excess fat."
-          },
-          {
-            "step 3": "Stir in taco seasoning and cook for an additional 2-3 minutes."
-          },
-          {
-            "step 4": "Warm taco shells according to package instructions."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Fill taco shells with beef mixture and top with lettuce, tomatoes, cheese, sour cream, and salsa."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Margherita Pizza",
-        "ingredients": [
-          {"item": "1 pizza dough"},
-          {"item": "1/2 cup pizza sauce"},
-          {"item": "200g fresh mozzarella cheese, sliced"},
-          {"item": "1/4 cup fresh basil leaves"},
-          {"item": "1 tablespoon olive oil"},
-          {"item": "Salt"},
-          {"item": "Black pepper"}
-        ],
-        "method": [
-          {
-            "step 1": "Preheat oven to 475°F (245°C)."
-          },
-          {
-            "step 2": "Roll out the pizza dough on a floured surface."
-          },
-          {
-            "step 3": "Spread pizza sauce evenly over the dough. Arrange mozzarella slices on top."
-          },
-          {
-            "step 4": "Bake in the preheated oven for 10-15 minutes, or until the crust is golden and cheese is bubbly."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Garnish with fresh basil leaves, drizzle with olive oil, and season with salt and pepper before serving."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Banana Bread",
-        "ingredients": [
-          {"item": "2 to 3 ripe bananas, mashed"},
-          {"item": "1/3 cup melted butter"},
-          {"item": "1 teaspoon baking soda"},
-          {"item": "Pinch of salt"},
-          {"item": "3/4 cup sugar"},
-          {"item": "1 large egg, beaten"},
-          {"item": "1 teaspoon vanilla extract"},
-          {"item": "1 1/2 cups all-purpose flour"}
-        ],
-        "method": [
-          {
-            "step 1": "Preheat oven to 350°F (175°C). Butter a 4x8 inch loaf pan."
-          },
-          {
-            "step 2": "In a mixing bowl, mash the ripe bananas with a fork. Stir in the melted butter."
-          },
-          {
-            "step 3": "Mix in the baking soda, salt, sugar, beaten egg, and vanilla extract. Add the flour last and mix until just combined."
-          },
-          {
-            "step 4": "Pour the batter into the loaf pan. Bake for 60-65 minutes or until a tester comes out clean."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Let cool in the pan for a few minutes, then transfer to a wire rack to cool completely. Slice and serve."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Chocolate Chip Cookies",
-        "ingredients": [
-          {"item": "2 1/4 cups all-purpose flour"},
-          {"item": "1/2 teaspoon baking soda"},
-          {"item": "1 cup unsalted butter, room temperature"},
-          {"item": "1/2 cup granulated sugar"},
-          {"item": "1 cup packed light-brown sugar"},
-          {"item": "1 teaspoon salt"},
-          {"item": "2 teaspoons vanilla extract"},
-          {"item": "2 large eggs"},
-          {"item": "2 cups semisweet and/or milk chocolate chips"}
-        ],
-        "method": [
-          {
-            "step 1": "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper."
-          },
-          {
-            "step 2": "In a bowl, whisk together the flour and baking soda. Set aside."
-          },
-          {
-            "step 3": "In a separate bowl, cream together the butter, granulated sugar, and brown sugar until light and fluffy. Add salt, vanilla, and eggs. Mix until combined."
-          },
-          {
-            "step 4": "Gradually add the flour mixture, then stir in the chocolate chips."
-          },
-          {
-            "step 5": "Drop dough by rounded tablespoons onto the prepared baking sheets. Bake until golden, about 10-12 minutes."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Let cool on wire racks and enjoy warm or store in an airtight container."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Vegetable Stir Fry",
-        "ingredients": [
-          {"item": "1 cup broccoli florets"},
-          {"item": "1 bell pepper, sliced"},
-          {"item": "1 carrot, julienne"},
-          {"item": "1 cup snow peas"},
-          {"item": "2 cloves garlic, minced"},
-          {"item": "1 tablespoon ginger, minced"},
-          {"item": "2 tablespoons soy sauce"},
-          {"item": "1 tablespoon sesame oil"},
-          {"item": "1 tablespoon olive oil"},
-          {"item": "1/2 teaspoon cornstarch"},
-          {"item": "1/4 cup vegetable broth"},
-          {"item": "Sesame seeds (optional)"}
-        ],
-        "method": [
-          {
-            "step 1": "In a small bowl, mix soy sauce, sesame oil, cornstarch, and vegetable broth. Set aside."
-          },
-          {
-            "step 2": "Heat olive oil in a pan over medium-high heat. Add garlic and ginger, stir-fry for 1 minute."
-          },
-          {
-            "step 3": "Add all the vegetables and stir-fry until tender-crisp."
-          },
-          {
-            "step 4": "Pour the sauce over the vegetables and stir until well coated and sauce thickens."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Serve hot, garnished with sesame seeds if desired."
-          }
-        ]
-      }
-    },
-    {
-      "recipe": {
-        "food-name": "Caesar Salad",
-        "ingredients": [
-          {"item": "1 large head of romaine lettuce, chopped"},
-          {"item": "1/2 cup Caesar dressing"},
-          {"item": "1/2 cup croutons"},
-          {"item": "1/4 cup grated Parmesan cheese"},
-          {"item": "2 anchovy fillets (optional)"},
-          {"item": "1 clove garlic, minced"},
-          {"item": "1 tablespoon lemon juice"},
-          {"item": "Salt"},
-          {"item": "Black pepper"}
-        ],
-        "method": [
-          {
-            "step 1": "In a large bowl, combine lettuce, croutons, and Parmesan cheese."
-          },
-          {
-            "step 2": "In a small bowl, mix Caesar dressing, anchovy fillets, garlic, and lemon juice."
-          },
-          {
-            "step 3": "Pour dressing over the salad and toss well."
-          }
-        ],
-        "serve": [
-          {
-            "serve": "Serve immediately, garnished with additional Parmesan and croutons if desired."
-          }
-        ]
-      }
-    }
-  ]
+  {
+    "foodName": "French Toast",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.aM8oUWXkMiLwBiQi4ewayQHaE7&pid=Api&P=0&h=220",
+    "ingredients": [
+      "4 large eggs",
+      "2/3 cup milk",
+      "2 teaspoons cinnamon",
+      "8 thick slices 2-day-old bread (better if slightly stale)",
+      "Butter (can substitute vegetable oil)",
+      "Maple syrup",
+      "2 teaspoons freshly grated orange zest",
+      "1/4 cup triple sec (optional)",
+      "Fresh berries"
+    ],
+    "method": [
+      "In a medium bowl, whisk together the eggs, milk, and cinnamon. Stir in the orange zest and/or triple sec if using. Whisk the mixture until well blended and pour into a shallow bowl, wide enough to place a slice of the bread you will be using.",
+      "Place each slice of bread into the milk-egg mixture, allowing the bread to soak in some of it.",
+      "Melt some butter in a large skillet over medium-high heat. Shake off the excess egg mixture from the bread and place the bread slices onto the skillet. Brown on one side, then flip and brown the other side."
+    ],
+    "serve": "Serve the French toast hot with butter, maple syrup, and/or fresh berries."
+  },
+  {
+    "foodName": "Pancakes",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.kDl2JuPZ3tRVTWGQq260bgHaKX&pid=Api&P=0&h=220",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "3 1/2 teaspoons baking powder",
+      "1 teaspoon salt",
+      "1 tablespoon white sugar",
+      "1 1/4 cups milk",
+      "1 egg",
+      "3 tablespoons butter, melted",
+      "1 teaspoon vanilla extract",
+      "Butter or oil for cooking",
+      "Maple syrup",
+      "Fresh fruit (optional)"
+    ],
+    "method": [
+      "In a large bowl, sift together the flour, baking powder, salt, and sugar.",
+      "Make a well in the center and pour in the milk, egg, melted butter, and vanilla extract. Mix until smooth.",
+      "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+      "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot."
+    ],
+    "serve": "Serve the pancakes warm with butter, maple syrup, and fresh fruit if desired."
+  },
+  {
+    "foodName": "Spaghetti Bolognese",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.YixleAz2dzjXRd3FGfaIlwAAAA&pid=Api&P=0&h=220",
+    "ingredients": [
+      "400g spaghetti",
+      "2 tablespoons olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "500g ground beef",
+      "1 can (400g) crushed tomatoes",
+      "2 tablespoons tomato paste",
+      "1 teaspoon dried oregano",
+      "1 teaspoon dried basil",
+      "Salt and pepper to taste",
+      "Grated Parmesan cheese for serving"
+    ],
+    "method": [
+      "Cook the spaghetti according to package instructions. Drain and set aside.",
+      "Heat olive oil in a large pan over medium heat. Add onion and garlic, sauté until soft.",
+      "Add ground beef and cook until browned.",
+      "Stir in crushed tomatoes, tomato paste, oregano, basil, salt, and pepper. Simmer for 15-20 minutes.",
+      "Serve the sauce over the cooked spaghetti."
+    ],
+    "serve": "Top with grated Parmesan cheese and serve hot."
+  },
+  {
+    "foodName": "Chicken Caesar Salad",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.jHv25J4qUyF5wnjiWf_jfwHaHa&pid=Api&P=0&h=220",
+    "ingredients": [
+      "2 chicken breasts, grilled and sliced",
+      "1 large head of romaine lettuce, chopped",
+      "1/2 cup Caesar dressing",
+      "1/2 cup croutons",
+      "1/4 cup grated Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "method": [
+      "In a large bowl, combine chopped romaine lettuce, croutons, and grated Parmesan cheese.",
+      "Add grilled chicken slices on top.",
+      "Drizzle with Caesar dressing and toss until evenly coated.",
+      "Season with salt and pepper to taste."
+    ],
+    "serve": "Serve immediately with extra Parmesan cheese if desired."
+  },
+  {
+    "foodName": "Vegetable Fried Rice",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.ZDGDzgMfgy4T8xmnprQltgHaHa&pid=Api&P=0&h=220",
+    "ingredients": [
+      "2 cups cooked rice (preferably day-old)",
+      "2 tablespoons vegetable oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 carrot, diced",
+      "1 bell pepper, diced",
+      "1 cup frozen peas",
+      "2 tablespoons soy sauce",
+      "1 tablespoon oyster sauce",
+      "2 eggs, lightly beaten",
+      "Green onions, chopped (optional)"
+    ],
+    "method": [
+      "Heat vegetable oil in a large pan or wok over medium-high heat. Add onion and garlic, sauté until soft.",
+      "Add diced carrot, bell pepper, and peas. Stir-fry for 3-4 minutes.",
+      "Push the vegetables to the side of the pan and pour in the beaten eggs. Scramble until fully cooked.",
+      "Add the cooked rice, soy sauce, and oyster sauce. Stir-fry until everything is well combined and heated through.",
+      "Garnish with chopped green onions if desired."
+    ],
+    "serve": "Serve hot as a main dish or side."
+  },
+  {
+    "foodName": "Classic Margherita Pizza",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.JgT2nYsBp8Yf0XZKkV10sgHaFs&pid=Api&P=0&h=220",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "200g fresh mozzarella cheese, sliced",
+      "1/4 cup fresh basil leaves",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste"
+    ],
+    "method": [
+      "Preheat oven to 475°F (245°C).",
+      "Roll out the pizza dough on a floured surface to your desired thickness.",
+      "Spread tomato sauce evenly over the dough.",
+      "Arrange mozzarella slices on top of the sauce.",
+      "Bake in the preheated oven for 10-15 minutes, or until the crust is golden and the cheese is bubbly.",
+      "Garnish with fresh basil leaves and drizzle with olive oil."
+    ],
+    "serve": "Season with salt and pepper before serving hot."
+  },
+  {
+    "foodName": "Chocolate Brownies",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.-fLP1Y5PBw8v-NTF5RF7lwHaHa&pid=Api&P=0&h=220",
+    "ingredients": [
+      "1/2 cup unsalted butter, melted",
+      "1 cup white sugar",
+      "2 large eggs",
+      "1 teaspoon vanilla extract",
+      "1/3 cup unsweetened cocoa powder",
+      "1/2 cup all-purpose flour",
+      "1/4 teaspoon salt",
+      "1/4 teaspoon baking powder"
+    ],
+    "method": [
+      "Preheat oven to 350°F (175°C). Grease and flour an 8-inch square pan.",
+      "In a large bowl, mix together the melted butter, sugar, eggs, and vanilla.",
+      "Stir in cocoa powder, flour, salt, and baking powder until well combined.",
+      "Spread the batter into the prepared pan.",
+      "Bake in the preheated oven for 20-25 minutes, or until a toothpick inserted into the center comes out clean."
+    ],
+    "serve": "Let cool before cutting into squares. Serve with a scoop of vanilla ice cream if desired."
+  },
+  {
+    "foodName": "Chocolate Chip Cookies",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.DvtMOyIlvS9WIwvBA_EI2AAAAA&pid=Api&P=0&h=220",
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1/2 teaspoon baking soda",
+      "1 cup unsalted butter, room temperature",
+      "1/2 cup granulated sugar",
+      "1 cup packed light-brown sugar",
+      "1 teaspoon salt",
+      "2 teaspoons vanilla extract",
+      "2 large eggs",
+      "2 cups semisweet and/or milk chocolate chips"
+    ],
+    "method": [
+      "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper.",
+      "In a bowl, whisk together the flour and baking soda. Set aside.",
+      "In a separate bowl, cream together the butter, granulated sugar, and brown sugar until light and fluffy. Add salt, vanilla, and eggs. Mix until combined.",
+      "Gradually add the flour mixture, then stir in the chocolate chips.",
+      "Drop dough by rounded tablespoons onto the prepared baking sheets. Bake until golden, about 10-12 minutes."
+    ],
+    "serve": "Let cool on wire racks and enjoy warm or store in an airtight container."
+  },
+  {
+    "foodName": "Banana Bread",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.Z2HwbCNLiLMbqHWY5D2K7gHaLH&pid=Api&P=0&h=220",
+    "ingredients": [
+      "2 to 3 ripe bananas, mashed",
+      "1/3 cup melted butter",
+      "1 teaspoon baking soda",
+      "Pinch of salt",
+      "3/4 cup sugar",
+      "1 large egg, beaten",
+      "1 teaspoon vanilla extract",
+      "1 1/2 cups all-purpose flour"
+    ],
+    "method": [
+      "Preheat oven to 350°F (175°C). Butter a 4x8 inch loaf pan.",
+      "In a mixing bowl, mash the ripe bananas with a fork. Stir in the melted butter.",
+      "Mix in the baking soda, salt, sugar, beaten egg, and vanilla extract. Add the flour last and mix until just combined.",
+      "Pour the batter into the loaf pan. Bake for 60-65 minutes or until a tester comes out clean."
+    ],
+    "serve": "Let cool in the pan for a few minutes, then transfer to a wire rack to cool completely. Slice and serve."
+  },
+  {
+    "foodName": "Chicken Curry",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.q4NVmrmDCyky7uezch58EAHaHa&pid=Api&P=0&h=220",
+    "ingredients": [
+      "500g chicken breast, cut into cubes",
+      "1 large onion, chopped",
+      "2 cloves garlic, minced",
+      "1-inch piece ginger, grated",
+      "2 tablespoons curry powder",
+      "1 can coconut milk",
+      "1 can diced tomatoes",
+      "2 tablespoons vegetable oil",
+      "Salt and pepper to taste",
+      "Cilantro (for garnish)"
+    ],
+    "method": [
+      "Heat oil in a pan over medium heat. Add onion, garlic, and ginger. Sauté until onion is translucent.",
+      "Add chicken cubes and cook until browned.",
+      "Stir in curry powder and cook for 1-2 minutes.",
+      "Add coconut milk and diced tomatoes. Bring to a boil, then reduce heat and simmer for 15-20 minutes."
+    ],
+    "serve": "Serve hot with rice and garnish with fresh cilantro."
+  }
   
+  
+
+  
+  
+
+  
+  
+]

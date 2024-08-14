@@ -1,0 +1,13 @@
+
+
+
+.title1{
+    color: brown;
+}
+    
+  
+  .mainInput{
+    flex-direction: column;
+    justify-content:column;
+    text-align:center
+  }

@@ -13,8 +13,8 @@ function Home() {
   return (
     <div className="App">
       <h1>Our Recipes</h1>
-      <button>Order here</button>
-      <div>
+      <button className='button1'>Order here</button>
+      <div className="mainApp">
         {recipes.map((recipe, index) => (
           <div key={index}>
             <h2>{recipe.foodName}</h2>

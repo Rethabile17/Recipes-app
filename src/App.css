@@ -1,8 +1,23 @@
-.App h1 {
+.App  {
   text-align: center;
+  flex-direction: column;
+  background-color: aqua;
 }
 
 .App img {
   max-width: 100%;
   height: auto;
+}
+
+.button1{
+  justify-content: center;
+  text-align: center;
+}
+
+.mainApp{
+  flex-direction: column;
+  background-color: gray;
+  justify-content: center;
+  text-align: center;
+  
 }

@@ -2,7 +2,7 @@
 
 
 .title1{
-    color: brown;
+    color: black;
 }
     
   
@@ -10,4 +10,21 @@
     flex-direction: column;
     justify-content:column;
     text-align:center
+  }
+
+  .cold{
+    color: black;
+  }
+  .inputName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ 
+  }
+
+  .inputName >.errorLabel{
+    color: red;
+    font-size: 15px;
   }

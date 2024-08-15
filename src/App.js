@@ -1,20 +1,22 @@
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from  "./components/home";
 import Registration from "./components/Registration";
-
+import Login from "./components/Login";
 
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <h1>Recipe App</h1>
-        <Home/>
-        <Registration/>
-      </div>
-    
-    </div>
+
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+      </BrowserRouter>
+
   );
 }
 

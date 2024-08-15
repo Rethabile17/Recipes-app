@@ -4,7 +4,7 @@ import "./Registration.css"
 
 
 
-function Registration(props) {
+function Login(props) {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password,setPassword] = useState("");
@@ -61,10 +61,10 @@ function Registration(props) {
 return (
     <div className="mainTitle">
         <div className="mainInput">
-            <h1 className="title1">Registration</h1>
+            <h1 className="title1">Login</h1>
             <div className="inputName">
-            <input  type="text" value={name} placeholder="name here" onChange={(ev) => setName(ev.target.value)}/>
-            <label className="errorLabel">{nameError}</label>
+            {/* <input  type="text" value={name} placeholder="name here" onChange={(ev) => setName(ev.target.value)}/>
+            <label className="errorLabel">{nameError}</label> */}
 
             <input  type="text" value={email} placeholder="email here" onChange={(ev) => setEmail(ev.target.value)}/>
             <label className="errorLabel">{emailError}</label>
@@ -76,8 +76,8 @@ return (
                 <input className="inputButton" type="button" onClick={onButtonClick} value="Sign Up"/>
             </div>
             <div>
-                <p className="cold">Do you have account already just </p>
-                <input className="inputButton" type="button" onClick={() => navigate('/')} value="home"/>
+                <p className="cold">Don't Have account?  </p>
+
             </div>
 
         </div>
@@ -85,4 +85,4 @@ return (
 );
 }
 
-export default Registration;
+export default Login;

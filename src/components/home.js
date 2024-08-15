@@ -20,7 +20,7 @@ function Home() {
           <div key={index}>
             <h2>{recipe.foodName}</h2>
             <img src={recipe.image} alt={recipe.foodName} />
-            <h3>Ingredients:</h3>
+            {/* <h3>Ingredients:</h3>
             <ul>
               {recipe.ingredients.map((ingredient, i) => (
                 <li key={i}>{ingredient}</li>
@@ -33,7 +33,7 @@ function Home() {
               ))}
             </ol>
             <h3>Serving Suggestions:</h3>
-            <p>{recipe.serve}</p>
+            <p>{recipe.serve}</p> */}
           </div>
         ))}
       </div>

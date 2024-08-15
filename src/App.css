@@ -15,9 +15,11 @@
 }
 
 .mainApp{
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 20px;
   background-color: gray;
-  justify-content: center;
-  text-align: center;
+  
   
 }

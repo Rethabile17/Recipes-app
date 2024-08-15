@@ -53,7 +53,7 @@ function Registration(props) {
                 password: password,
             };
             console.log(userDate);
-            navigate('/');
+            navigate('/Login');
         }
     };
 
@@ -77,7 +77,7 @@ return (
             </div>
             <div>
                 <p className="cold">Do you have account already just </p>
-                <input className="inputButton" type="button" onClick={() => navigate('/')} value="home"/>
+                <input className="inputButton" type="button" onClick={() => navigate('/Login')} value="login"/>
             </div>
 
         </div>

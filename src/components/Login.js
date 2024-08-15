@@ -63,8 +63,6 @@ return (
         <div className="mainInput">
             <h1 className="title1">Login</h1>
             <div className="inputName">
-            {/* <input  type="text" value={name} placeholder="name here" onChange={(ev) => setName(ev.target.value)}/>
-            <label className="errorLabel">{nameError}</label> */}
 
             <input  type="text" value={email} placeholder="email here" onChange={(ev) => setEmail(ev.target.value)}/>
             <label className="errorLabel">{emailError}</label>

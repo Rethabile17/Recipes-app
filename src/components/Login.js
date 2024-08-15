@@ -5,27 +5,19 @@ import "./Registration.css"
 
 
 function Login(props) {
-    const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password,setPassword] = useState("");
-    const [nameError,setNameError] = useState("");
     const [emailError,setEmailError] = useState("");
     const [passwordError, setPasswordError] = useState("");
 
     const navigate = useNavigate();
 
     const validateForm =() => {
-        setNameError('');
         setEmailError('');
         setPasswordError('');
     
     
     let isValid = true;
-
-    if (name.trim() === '') {
-        setNameError('Please enter your name');
-        isValid = false;
-    }
 
     if (email.trim() ==='') {
         setEmailError('please enter your email');
@@ -48,7 +40,6 @@ function Login(props) {
     const onButtonClick = () => {
         if (validateForm()) {
             const userDate = {
-                name: name,
                 email: email,
                 password: password,
             };
@@ -71,11 +62,7 @@ return (
             <label className="errorLabel">{passwordError}</label>
             </div>
             <div>
-                <input className="inputButton" type="button" onClick={onButtonClick} value="Sign Up"/>
-            </div>
-            <div>
-                <p className="cold">Don't Have account?  </p>
-
+                <input className="inputButton" type="button" onClick={onButtonClick} value="Submit"/>
             </div>
 
         </div>

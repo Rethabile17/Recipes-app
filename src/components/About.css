@@ -1,0 +1,62 @@
+.mainContainer{
+    justify-content: center;
+    text-align: center;
+    gap: none;
+    margin: none;
+    padding: none;
+    box-shadow: ;
+
+}
+
+.titleContainer{
+
+}
+
+.site{
+    color: rgb(74, 214, 18);
+
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    gap: 50px;
+    justify-content: center;
+    text-align: center
+}
+
+.inputButton{
+    background-color: rgb(34, 182, 219);
+    color: white;
+    border: none;
+    height: 23px;
+    margin-top: 10px;
+}
+
+.inputButton2{
+    background-color: rgb(34, 182, 219);
+    color: white;
+    border: none;
+    height: 23px;
+
+}
+
+.item{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.MqnnmaRAaaY8jcQJZAVs1AHaE8&pid=Api&P=0&h=220);
+    height: 200px;
+    width: 270px;
+    gap: 20px;
+}
+
+.item2{
+    background-image:  url(https://tse4.mm.bing.net/th?id=OIP.tUQYQcOOKUiJmMyYYEfC7wAAAA&pid=Api&P=0&h=220);
+    height: 200px;
+    width: 270px;
+}
+
+.item3{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.1Q1Kbcglg1JfXuPRrgfRKgHaFW&pid=Api&P=0&h=220);
+    height: 200px;
+    width: 270px;
+}

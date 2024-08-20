@@ -1,7 +1,6 @@
 .mainContainer{
   justify-content: center;
   text-align: center;
-  gap: none;
   margin: none;
   padding: none;
 
@@ -14,6 +13,26 @@
 
 .site{
   color: rgb(74, 214, 18);
+
+}
+
+.Searchbar{
+  margin-bottom: 20px;
+  border-color: black;
+  background-color: blue;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;;
+}
+
+.inputSearch{
+  border: none;
+}
+
+.inputButton3{
+  background-color: white;
+  color: rgb(34, 182, 219);
+  border: none;
 
 }
 

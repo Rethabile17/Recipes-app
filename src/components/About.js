@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -12,10 +13,19 @@ function About() {
       .catch(error => console.error('Error fetching recipes:', error));
   }, []);
 
+  const navigate = useNavigate();
+
+
+  const onButtonClick = () => {
+    console.log ();
+    navigate("/")
+
+  }
+
   return (
     <div className="App">
       <h1>Our Recipes</h1>
-      <button className='button1'>Order here</button>
+      <input className='button1' type="button" onClick={ onButtonClick } value="Logout"/>
       <div className="mainApp">
         {recipes.map((recipe, index) => (
           <div key={index}>

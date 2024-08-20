@@ -22,9 +22,9 @@ return (
                 <h1>categories of meat</h1>
             </div>
 
-            <div>
-              <input type="text" placeholder="Search" />
-              <input className="inputButton" type="button" value="search" />
+            <div className="Searchbar">
+              <input className="inputSearch" type="text" placeholder="Search" />
+              <input className="inputButton3" type="button" value="search" />
             </div>
 
             <div className="categories">
@@ -44,13 +44,13 @@ return (
             </div>
             <div className="item4">
               <img src={"https://tse4.mm.bing.net/th?id=OIP.2BRS-ZmE2ayvjMuJ0gW4UAHaEo&pid=Api&P=0&h=220"} alt="" />
-              <input className="inputButton" type="button" value="meals" />
+              <input className="inputButton" type="button" onClick={() => navigate('/About')} value="meals" />
             </div>
           
             <div>
                 <input className="inputButton2" type="button" onClick={ onButtonClick }  value="Logout"/>
                 </div>
-                
+
             </div>
     </div>
 )

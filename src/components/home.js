@@ -1,7 +1,6 @@
 import React  from "react";
 import { useNavigate } from "react-router-dom";
 
-
 function Home() {
 
 const navigate = useNavigate();
@@ -31,15 +30,15 @@ return (
                
             <div className="item">
                 <imag src={"https://tse1.mm.bing.net/th?id=OIP.MqnnmaRAaaY8jcQJZAVs1AHaE8&pid=Api&P=0&h=220"} alt=""/>
-                <input className="inputButton" type="button" value="Breakfast"/>
+                <input className="inputButton" type="button" onClick={() => navigate('/Breakfast')} value="Breakfast"/>
             </div>
             <div className="item2">
             <imag  src={"https://tse4.mm.bing.net/th?id=OIP.tUQYQcOOKUiJmMyYYEfC7wAAAA&pid=Api&P=0&h=220"}/>
-                <input className="inputButton" type="button" value="lunch"/>
+                <input className="inputButton" type="button" onClick={()=> navigate('/Lunch')} value="lunch"/>
             </div>
             <div className="item3">
             <imag  src={"https://tse2.mm.bing.net/th?id=OIP.BBBFktSIlFxr2ftuvB33rgHaE8&pid=Api&P=0&h=220"} alt="" />
-                <input className="inputButton" type="button" value="Dinner"/>  
+                <input className="inputButton" type="button" onClick={() => navigate('/Dinner')} value="Dinner"/>  
                 </div> 
             </div>
             <div className="item4">

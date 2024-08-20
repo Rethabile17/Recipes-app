@@ -1,0 +1,112 @@
+[
+    {
+        "foodName": "Grilled Chicken Salad",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.RLPafTOUvKLOV2wXpGhuwQHaFn&pid=Api&P=0&h=220",
+        "ingredients": [
+          "2 chicken breasts",
+          "4 cups mixed greens",
+          "1/2 cup cherry tomatoes, halved",
+           "1/4 cup cucumber, sliced",
+          "1/4 cup red onion, thinly sliced",
+          "1/4 cup feta cheese, crumbled",
+          "2 tablespoons olive oil",
+          "1 tablespoon balsamic vinegar",
+          "Salt and pepper to taste"
+        ],
+        "method": [
+          "Season the chicken breasts with salt and pepper, and grill over medium heat until fully cooked. Let cool and slice.",
+          "In a large bowl, combine mixed greens, cherry tomatoes, cucumber, and red onion.",
+          "Top with grilled chicken slices and sprinkle with feta cheese.",
+          "In a small bowl, whisk together olive oil and balsamic vinegar.",
+          "Drizzle the dressing over the salad and toss to combine."
+        ],
+        "serve": "Serve the grilled chicken salad immediately with your favorite bread or on its own."
+      },
+      {
+        "foodName": "Quinoa and Vegetable Stir-Fry",
+        "image": "https://tse3.mm.bing.net/th?id=OIP.bDQTM5dIeeR6wAu_Rnp7lQHaGD&pid=Api&P=0&h=220",
+        "ingredients": [
+          "1 cup quinoa, rinsed",
+          "2 cups water",
+          "1 tablespoon olive oil",
+          "1 bell pepper, sliced",
+          "1 zucchini, sliced",
+          "1 cup broccoli florets",
+          "2 cloves garlic, minced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon sesame oil",
+          "Salt and pepper to taste"
+        ],
+        "method": [
+          "Cook quinoa in water according to package instructions. Set aside.",
+          "In a large pan, heat olive oil over medium heat. Add garlic and sauté for 1 minute.",
+          "Add bell pepper, zucchini, and broccoli to the pan. Stir-fry until tender-crisp.",
+          "Add cooked quinoa, soy sauce, and sesame oil to the vegetables. Stir to combine and heat through.",
+          "Season with salt and pepper to taste."
+        ],
+        "serve": "Serve the quinoa and vegetable stir-fry hot, garnished with sesame seeds if desired."
+      },
+      {
+        "foodName": "Tomato Basil Soup",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.hGSKG0y3zLAUy7DaF2fuXAHaLG&pid=Api&P=0&h=220",
+        "ingredients": [
+          "2 tablespoons olive oil",
+          "1 onion, chopped",
+          "2 cloves garlic, minced",
+          "4 cups diced tomatoes",
+          "2 cups vegetable broth",
+          "1/2 cup fresh basil leaves, chopped",
+          "Salt and pepper to taste",
+          "1/4 cup heavy cream (optional)"
+        ],
+        "method": [
+          "In a large pot, heat olive oil over medium heat. Add onion and garlic, sauté until soft.",
+          "Add diced tomatoes and vegetable broth to the pot. Bring to a boil, then reduce heat and simmer for 15 minutes.",
+          "Use an immersion blender to puree the soup until smooth.",
+          "Stir in fresh basil and season with salt and pepper.",
+          "If using, add heavy cream and heat through."
+        ],
+        "serve": "Serve the tomato basil soup hot with a side of crusty bread."
+      },
+      {
+        "foodName": "Veggie Pita Sandwich",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.n5nj6vuuvsCNMak3Tgt1egHaE8&pid=Api&P=0&h=220",
+        "ingredients": [
+          "4 whole wheat pita pockets",
+          "1/2 cup hummus",
+          "1 cucumber, sliced",
+          "1 tomato, sliced",
+          "1/4 cup red onion, thinly sliced",
+          "1/2 cup shredded carrots",
+          "1/4 cup crumbled feta cheese",
+          "2 tablespoons tzatziki sauce"
+        ],
+        "method": [
+          "Cut the pita pockets in half and spread hummus inside each pocket.",
+          "Fill each pita half with cucumber, tomato, red onion, shredded carrots, and crumbled feta cheese.",
+          "Drizzle tzatziki sauce over the vegetables."
+        ],
+        "serve": "Serve the veggie pita sandwiches immediately with a side of fresh fruit or salad."
+      },
+      {
+        "foodName": "Turkey and Avocado Wrap",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.Yxz4GOJsBYxuYBjdzi_qUQHaFF&pid=Api&P=0&h=220",
+        "ingredients": [
+          "4 whole wheat tortillas",
+          "8 slices of deli turkey",
+          "1 avocado, sliced",
+          "1/2 cup shredded lettuce",
+          "1/4 cup shredded cheddar cheese",
+          "2 tablespoons mayonnaise",
+          "1 tablespoon Dijon mustard"
+        ],
+        "method": [
+          "Spread mayonnaise and Dijon mustard evenly over each tortilla.",
+          "Layer turkey slices, avocado, lettuce, and cheddar cheese on each tortilla.",
+          "Roll up the tortillas tightly, securing with toothpicks if necessary.",
+          "Cut the wraps in half."
+        ],
+        "serve": "Serve the turkey and avocado wraps with a side of fresh fruit or chips."
+      }
+      
+]

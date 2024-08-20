@@ -1,0 +1,128 @@
+[
+    {
+        "foodName": "Bacon-Wrapped Meatloaf",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.K-ivKyRGCIh--RDzjZoO2wHaE8&pid=Api&P=0&h=220",
+        "ingredients": [
+          "1 1/2 lbs ground beef",
+          "1/2 lb ground pork",
+          "1/2 cup breadcrumbs",
+          "1/2 cup whole milk",
+          "1/2 cup grated Parmesan cheese",
+          "1 onion, finely chopped",
+          "2 cloves garlic, minced",
+          "1 egg",
+          "1 tablespoon Worcestershire sauce",
+          "Salt and pepper to taste",
+          "8-10 slices of bacon",
+          "1/4 cup ketchup"
+        ],
+        "method": [
+          "Preheat oven to 375°F (190°C).",
+          "In a large bowl, combine ground beef, ground pork, breadcrumbs, milk, Parmesan cheese, onion, garlic, egg, Worcestershire sauce, salt, and pepper. Mix well.",
+          "Form the mixture into a loaf shape and place it in a baking dish.",
+          "Wrap the loaf with bacon slices, overlapping slightly. Spread ketchup on top.",
+          "Bake for 1 hour or until the internal temperature reaches 160°F (70°C)."
+        ],
+        "serve": "Serve the bacon-wrapped meatloaf with mashed potatoes and gravy."
+      },
+      {
+        "foodName": "Loaded Nachos",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.i1EDisTevt34KYIPr9WQ-gHaE8&pid=Api&P=0&h=220",
+        "ingredients": [
+          "1 bag tortilla chips",
+          "1 lb ground beef",
+          "1 packet taco seasoning",
+          "1/2 cup water",
+          "2 cups shredded cheddar cheese",
+          "1/2 cup sour cream",
+          "1/4 cup sliced jalapeños",
+          "1/2 cup diced tomatoes",
+          "1/4 cup chopped green onions",
+          "1/4 cup black olives, sliced",
+          "1/2 cup guacamole"
+        ],
+        "method": [
+          "Preheat oven to 350°F (175°C).",
+          "In a skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+          "Add taco seasoning and water to the beef. Simmer for 5 minutes.",
+          "Spread tortilla chips on a large baking sheet. Top with seasoned beef and shredded cheddar cheese.",
+          "Bake in the oven for 10-15 minutes or until the cheese is melted and bubbly.",
+          "Remove from oven and top with sour cream, jalapeños, tomatoes, green onions, black olives, and guacamole."
+        ],
+        "serve": "Serve the loaded nachos immediately with your favorite dipping sauces."
+      },
+      {
+        "foodName": "Deep-Fried Mac and Cheese Balls",
+        "image": "https://tse1.mm.bing.net/th?id=OIP.wcgrY0Ouy2FiBD50rn-lowHaHa&pid=Api&P=0&h=220",
+        "ingredients": [
+          "2 cups leftover macaroni and cheese, chilled",
+          "1/2 cup flour",
+          "2 eggs, beaten",
+          "1 cup breadcrumbs",
+          "1/4 cup grated Parmesan cheese",
+          "Vegetable oil for frying",
+          "Ranch dressing (for dipping)"
+        ],
+        "method": [
+          "Heat oil in a deep fryer or large pot to 350°F (175°C).",
+          "Scoop chilled macaroni and cheese into balls and place on a baking sheet.",
+          "Coat each ball in flour, then dip in beaten eggs, and roll in a mixture of breadcrumbs and Parmesan cheese.",
+          "Fry the balls in hot oil until golden brown and crispy, about 3-4 minutes.",
+          "Drain on paper towels."
+        ],
+        "serve": "Serve the deep-fried mac and cheese balls hot with ranch dressing for dipping."
+      },
+      {
+        "foodName": "Double Cheeseburger",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.XULephKEEE5Obq11QTSTiQHaE8&pid=Api&P=0&h=220",
+        "ingredients": [
+          "2 lbs ground beef",
+          "4 slices cheddar cheese",
+          "4 slices American cheese",
+          "4 sesame seed burger buns",
+          "8 slices bacon, cooked",
+          "1/4 cup mayonnaise",
+          "1/4 cup ketchup",
+          "1/4 cup yellow mustard",
+          "Lettuce leaves",
+          "Sliced tomatoes",
+          "Pickle slices",
+          "Salt and pepper to taste"
+        ],
+        "method": [
+          "Preheat grill or stover pan over medium-high heat.",
+          "Divide ground beef into 8 equal portions and form into patties. Season with salt and pepper.",
+          "Grill patties for 4-5 minutes per side or until desired doneness.",
+          "During the last minute of cooking, place a slice of cheddar and a slice of American cheese on 4 of the patties. Stack the other patties on top to form double burgers.",
+          "Toast burger buns on the grill until golden brown.",
+          "Assemble the burgers with mayonnaise, ketchup, mustard, lettuce, tomatoes, pickles, and bacon."
+        ],
+        "serve": "Serve the double cheeseburgers with fries and a cold soda."
+      },
+      {
+  "foodName": "Chicken Alfredo Pizza",
+  "image": "https://tse2.mm.bing.net/th?id=OIP.Fdi4l5z-q6rXrdP7Hx9kbQHaLF&pid=Api&P=0&h=220",
+  "ingredients": [
+    "1 pizza dough",
+    "1 cup Alfredo sauce",
+    "1 1/2 cups cooked chicken breast, shredded",
+    "1 cup shredded mozzarella cheese",
+    "1/2 cup shredded Parmesan cheese",
+    "1/4 cup cooked bacon, crumbled",
+    "1/4 cup chopped green onions",
+    "1 tablespoon olive oil",
+    "Salt and pepper to taste"
+  ],
+  "method": [
+    "Preheat oven to 475°F (245°C).",
+    "Roll out the pizza dough on a floured surface and place on a pizza stone or baking sheet.",
+    "Spread Alfredo sauce evenly over the dough.",
+    "Top with shredded chicken, mozzarella cheese, Parmesan cheese, bacon, and green onions.",
+    "Drizzle with olive oil and season with salt and pepper.",
+    "Bake for 12-15 minutes or until the crust is golden and the cheese is bubbly."
+  ],
+  "serve": "Serve the chicken Alfredo pizza hot with a side of garlic bread."
+}
+
+
+]

@@ -3,11 +3,18 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
+
   const [recipes, setRecipes] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredRecipes, setFilteredRecipes] = useState([]);
+  const [editingRecipe, setEditingRecipe] = useState(null);
+  const [editedRecipe, setEditedRecipe] = useState({
+    foodName: "",
+    image: "",
+    ingredients: [],
+    method: [],
+  });
 
-  // Function to fetch recipes from multiple files
   const fetchRecipes = async () => {
     try {
       const breakfastResponse = await fetch("/breakfast.json");
@@ -48,6 +55,42 @@ function Home() {
 
   const onSearchClick = () => {
     console.log("Search clicked");
+  };
+
+  const onDeleteClick = (foodName) => {
+    setRecipes((prevRecipes) =>
+      prevRecipes.filter((recipe) => recipe.foodName !== foodName)
+    );
+    setFilteredRecipes((prevFiltered) =>
+      prevFiltered.filter((recipe) => recipe.foodName !== foodName)
+    );
+  };
+
+  const onEditClick = (recipe) => {
+    setEditingRecipe(recipe.foodName);
+    setEditedRecipe(recipe);
+  };
+
+  const onEditChange = (e) => {
+    const { name, value } = e.target;
+    setEditedRecipe((prevRecipe) => ({
+      ...prevRecipe,
+      [name]: value,
+    }));
+  };
+
+  const onSaveClick = () => {
+    setRecipes((prevRecipes) =>
+      prevRecipes.map((recipe) =>
+        recipe.foodName === editingRecipe ? editedRecipe : recipe
+      )
+    );
+    setFilteredRecipes((prevFiltered) =>
+      prevFiltered.map((recipe) =>
+        recipe.foodName === editingRecipe ? editedRecipe : recipe
+      )
+    );
+    setEditingRecipe(null);
   };
 
   const onButtonClick = () => {
@@ -142,10 +185,47 @@ function Home() {
           <div className="recipesContainer">
             {filteredRecipes.map((recipe) => (
               <div key={recipe.foodName} className="recipeItem">
-                <h2>{recipe.foodName}</h2>
-                <img src={recipe.image} alt={recipe.foodName} />
-                <p>Ingredients: {recipe.ingredients.join(", ")}</p>
-                <p>Method: {recipe.method.join(" ")}</p>
+                {editingRecipe === recipe.foodName ? (
+                  <div>
+                    <h2>
+                      <input
+                        type="text"
+                        name="foodName"
+                        value={editedRecipe.foodName}
+                        onChange={onEditChange}
+                      />
+                    </h2>
+                    <img src={editedRecipe.image} alt={recipe.foodName} />
+                    <p>
+                      Ingredients:{" "}
+                      <textarea
+                        name="ingredients"
+                        value={editedRecipe.ingredients.join(", ")}
+                        onChange={onEditChange}
+                      />
+                    </p>
+                    <p>
+                      Method:{" "}
+                      <textarea
+                        name="method"
+                        value={editedRecipe.method.join(" ")}
+                        onChange={onEditChange}
+                      />
+                    </p>
+                    <button onClick={onSaveClick}>Save</button>
+                  </div>
+                ) : (
+                  <div>
+                    <h2>{recipe.foodName}</h2>
+                    <img src={recipe.image} alt={recipe.foodName} />
+                    <p>Ingredients: {recipe.ingredients.join(", ")}</p>
+                    <p>Method: {recipe.method.join(" ")}</p>
+                    <button onClick={() => onEditClick(recipe)}>Edit</button>
+                    <button onClick={() => onDeleteClick(recipe.foodName)}>
+                      Delete
+                    </button>
+                  </div>
+                )}
               </div>
             ))}
           </div>

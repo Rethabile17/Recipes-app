@@ -52,7 +52,9 @@ function Registration(props) {
                 email: email,
                 password: password,
             };
-            console.log(userDate);
+
+            localStorage.setItem("user",JSON.stringify(userDate));
+            console.log( "User registered:",userDate);
             navigate('/Login');
         }
     };

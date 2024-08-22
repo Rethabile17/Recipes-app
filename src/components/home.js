@@ -14,6 +14,11 @@ function Home() {
     ingredients: [],
     method: [],
   });
+  const [profileEditing, setProfileEditing] = useState(false);
+  const [userProfile, setUserProfile] = useState({
+    username: "Guest",
+    email: "",
+  });
 
   const fetchRecipes = async () => {
     try {
@@ -93,14 +98,63 @@ function Home() {
     setEditingRecipe(null);
   };
 
-  const onButtonClick = () => {
-    navigate("/Registration");
+  const onProfileChange = (e) => {
+    const { name, value } = e.target;
+    setUserProfile((prevProfile) => ({
+      ...prevProfile,
+      [name]: value,
+    }));
+  };
+
+  const onSaveProfile = () => {
+    console.log("Profile saved:", userProfile);
+    setProfileEditing(false);
+  };
+
+  const goToCategories = (category) => {
+    navigate(`/${category}`);
   };
 
   return (
     <div className="mainContainer">
       <div>
-        <div className={"titleContainer"}>Welcome!</div>
+        <div className={"titleContainer"}>Welcome, {userProfile.username}!</div>
+
+        <div className="profileSection">
+          {profileEditing ? (
+            <div>
+              <h2>Edit Profile</h2>
+              <label>
+                Username:
+                <input
+                  type="text"
+                  name="username"
+                  value={userProfile.username}
+                  onChange={onProfileChange}
+                />
+              </label>
+              <label>
+                Email:
+                <input
+                  type="email"
+                  name="email"
+                  value={userProfile.email}
+                  onChange={onProfileChange}
+                />
+              </label>
+              <button onClick={onSaveProfile}>Save Profile</button>
+              <button onClick={() => setProfileEditing(false)}>Cancel</button>
+            </div>
+          ) : (
+            <div>
+              <h2>Profile</h2>
+              <p>Username: {userProfile.username}</p>
+              <p>Email: {userProfile.email}</p>
+              <button onClick={() => setProfileEditing(true)}>Edit Profile</button>
+            </div>
+          )}
+        </div>
+
         <div className="site">
           <div>Delicious food site</div>
           <h1>Categories of Meat</h1>
@@ -133,7 +187,7 @@ function Home() {
             <input
               className="inputButton"
               type="button"
-              onClick={() => navigate("/Breakfast")}
+              onClick={() => goToCategories("Breakfast")}
               value="Breakfast"
             />
           </div>
@@ -147,7 +201,7 @@ function Home() {
             <input
               className="inputButton"
               type="button"
-              onClick={() => navigate("/Lunch")}
+              onClick={() => goToCategories("Lunch")}
               value="Lunch"
             />
           </div>
@@ -161,7 +215,7 @@ function Home() {
             <input
               className="inputButton"
               type="button"
-              onClick={() => navigate("/Dinner")}
+              onClick={() => goToCategories("Dinner")}
               value="Dinner"
             />
           </div>
@@ -175,7 +229,7 @@ function Home() {
             <input
               className="inputButton"
               type="button"
-              onClick={() => navigate("/About")}
+              onClick={() => goToCategories("About")}
               value="Meals"
             />
           </div>
@@ -235,7 +289,7 @@ function Home() {
           <input
             className="inputButton2"
             type="button"
-            onClick={onButtonClick}
+            onClick={() => navigate("/Registration")}
             value="Logout"
           />
         </div>

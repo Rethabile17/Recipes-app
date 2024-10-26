@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./Registration.css";
+import { useNavigate, Link } from "react-router-dom";
+import "./login.css";
 
 function Login() {
     const [email, setEmail] = useState("");
@@ -15,7 +15,7 @@ function Login() {
         setEmailError('');
         setPasswordError('');
         setLoginError('');
-        
+
         let isValid = true;
 
         if (email.trim() === '') {
@@ -45,7 +45,7 @@ function Login() {
                 if (storedUser.email === email && storedUser.password === password) {
                     console.log("Login successful");
                     localStorage.setItem("loggedInUser", JSON.stringify(storedUser));
-                    navigate('/');  
+                    navigate('/home');
                 } else {
                     setLoginError("Invalid email or password");
                 }
@@ -56,32 +56,41 @@ function Login() {
     };
 
     return (
-        <div className="mainTitle">
-            <div className="mainInput">
-                <h1 className="title1">Login</h1>
-                <div className="inputName">
-
-                    <input
-                        type="text"
-                        value={email}
-                        placeholder="Email"
-                        onChange={(ev) => setEmail(ev.target.value)}
-                    />
-                    <label className="errorLabel">{emailError}</label>
-
-                    <input
-                        type="password"
-                        value={password}
-                        placeholder="Password"
-                        onChange={(ev) => setPassword(ev.target.value)}
-                    />
-                    <label className="errorLabel">{passwordError}</label>
-
-                </div>
+        <div className="mainContainer">
+            <div className="titleContainer">
+                <h1>Login</h1>
+            </div>
+            <div className="inputContainer">
+                <input
+                    value={email}
+                    placeholder="Enter your email here"
+                    onChange={(ev) => setEmail(ev.target.value)}
+                    className="inputBox"
+                />
+                <label className="errorLabel">{emailError}</label>
+            </div>
+            <div className="inputContainer">
+                <input
+                    value={password}
+                    placeholder="Enter your password here"
+                    onChange={(ev) => setPassword(ev.target.value)}
+                    type="password"
+                    className="inputBox"
+                />
+                <label className="errorLabel">{passwordError}</label>
+            </div>
+            <div className="inputContainer">
+                <input
+                    className="inputButton"
+                    type="button" 
+                    onClick={onLoginClick} 
+                    value="Submit"
+                />
                 {loginError && <div className="errorLabel">{loginError}</div>}
-                <div>
-                    <input className="inputButton" type="button" onClick={onLoginClick} value="Submit"/>
-                </div>
+            </div>
+            <div className="inputContainer text">
+                Don't have an account? 
+                <Link to="/registration" className="registerLink"> Register here.</Link>
             </div>
         </div>
     );

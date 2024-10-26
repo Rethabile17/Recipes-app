@@ -1,0 +1,255 @@
+/* Home.css */
+
+.homeContainer {
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background for contrast */
+    font-family: 'Arial', sans-serif; /* Set a clean font */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.site {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0; /* Adjust margin */
+    font-size: 2em; /* Increase font size */
+    color: #333; /* Darker text for contrast */
+}
+
+.Searchbar {
+    display: flex;
+    justify-content: center; /* Center search bar */
+    margin-bottom: 20px;
+}
+
+.inputSearch {
+    padding: 10px;
+    font-size: 16px; /* Larger text */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Fixed width for better layout */
+    transition: border 0.3s; /* Smooth border transition */
+}
+
+.inputSearch:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.inputButton3 {
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 10px; /* Space between inputs */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.inputButton3:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+.categories {
+    display: flex;
+    justify-content: center; /* Center category buttons */
+    margin-bottom: 20px;
+    gap: 1rem;
+}
+
+.item {
+    margin: 0 10px; /* Space between buttons */
+}
+
+.inputButton {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.inputButton:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.recipesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between recipe items */
+}
+
+.recipeItem {
+    background-color: white; /* Card background color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.recipeItem:hover {
+    transform: scale(1.02); /* Slightly enlarge card on hover */
+}
+
+.recipeItem img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for image */
+}
+
+h2 {
+    font-size: 1.5em; /* Adjust heading size */
+    margin: 10px 0; /* Margin around headings */
+}
+
+button {
+    margin-top: 10px; /* Spacing above buttons */
+    padding: 10px; /* Consistent button padding */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Increase button text size */
+}
+
+button:hover {
+    opacity: 0.9; /* Slightly darken button on hover */
+}
+
+.inputButton2 {
+    background-color: #dc3545; /* Red button for logout */
+    color: white;
+}
+
+.inputButton2:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Profile section styles */
+.profileSection {
+    margin-bottom: 20px; /* Spacing below profile section */
+}
+
+.profileSection h2 {
+    font-size: 1.5em; /* Adjust heading size */
+}
+
+.profileSection label {
+    display: block; /* Make labels block level */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.profileSection input[type="text"],
+.profileSection input[type="email"] {
+    width: 100%; /* Full width input */
+    padding: 8px; /* Inner padding */
+    margin-bottom: 10px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border 0.3s; /* Smooth border transition */
+}
+
+.profileSection input[type="text"]:focus,
+.profileSection input[type="email"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+
+.homeContainer {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .site {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Searchbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputSearch {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .inputButton3 {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .inputButton {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #0275d8;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .recipesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .recipeItem {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipeItem img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .recipeItem h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+
+  .recipesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a 4-column layout */
+    gap: 20px; /* Space between recipe items */
+    margin-top: 20px; /* Optional: Add some margin at the top */
+}
+
+
+.recipesContainer div > img{
+    width: 100%;
+    height: 200px;
+}

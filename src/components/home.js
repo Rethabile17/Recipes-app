@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Home.css"
 
 function Home() {
   const navigate = useNavigate();
@@ -116,9 +117,9 @@ function Home() {
   };
 
   return (
-    <div className="mainContainer">
-      <div>
-        <div className={"titleContainer"}>Welcome, {userProfile.username}!</div>
+    <div className="homeContainer">
+      
+        {/* <div className={"titleContainer"}>Welcome, {userProfile.username}!</div>
 
         <div className="profileSection">
           {profileEditing ? (
@@ -153,7 +154,7 @@ function Home() {
               <button onClick={() => setProfileEditing(true)}>Edit Profile</button>
             </div>
           )}
-        </div>
+        </div> */}
 
         <div className="site">
           <div>Delicious food site</div>
@@ -178,12 +179,7 @@ function Home() {
 
         <div className="categories">
           <div className="item">
-            <img
-              src={
-                "https://tse1.mm.bing.net/th?id=OIP.MqnnmaRAaaY8jcQJZAVs1AHaE8&pid=Api&P=0&h=220"
-              }
-              alt=""
-            />
+
             <input
               className="inputButton"
               type="button"
@@ -192,12 +188,7 @@ function Home() {
             />
           </div>
           <div className="item2">
-            <img
-              src={
-                "https://tse4.mm.bing.net/th?id=OIP.tUQYQcOOKUiJmMyYYEfC7wAAAA&pid=Api&P=0&h=220"
-              }
-              alt=""
-            />
+
             <input
               className="inputButton"
               type="button"
@@ -206,12 +197,7 @@ function Home() {
             />
           </div>
           <div className="item3">
-            <img
-              src={
-                "https://tse2.mm.bing.net/th?id=OIP.BBBFktSIlFxr2ftuvB33rgHaE8&pid=Api&P=0&h=220"
-              }
-              alt=""
-            />
+     
             <input
               className="inputButton"
               type="button"
@@ -220,12 +206,7 @@ function Home() {
             />
           </div>
           <div className="item4">
-            <img
-              src={
-                "https://tse4.mm.bing.net/th?id=OIP.2BRS-ZmE2ayvjMuJ0gW4UAHaEo&pid=Api&P=0&h=220"
-              }
-              alt=""
-            />
+
             <input
               className="inputButton"
               type="button"
@@ -272,10 +253,10 @@ function Home() {
                   <div>
                     <h2>{recipe.foodName}</h2>
                     <img src={recipe.image} alt={recipe.foodName} />
-                    <p>Ingredients: {recipe.ingredients.join(", ")}</p>
-                    <p>Method: {recipe.method.join(" ")}</p>
-                    <button onClick={() => onEditClick(recipe)}>Edit</button>
-                    <button onClick={() => onDeleteClick(recipe.foodName)}>
+                    {/* <p>Ingredients: {recipe.ingredients.join(", ")}</p>
+                    <p>Method: {recipe.method.join(" ")}</p> */}
+                    <button className='button2 ' onClick={() => onEditClick(recipe)}>Edit</button>
+                    <button className='button2 red' onClick={() => onDeleteClick(recipe.foodName)}>
                       Delete
                     </button>
                   </div>
@@ -293,7 +274,7 @@ function Home() {
             value="Logout"
           />
         </div>
-      </div>
+
     </div>
   );
 }

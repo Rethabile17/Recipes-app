@@ -27,11 +27,11 @@
   }
   
   .editRecipe textarea {
-    resize: vertical; /* Allow vertical resizing only */
+    resize: vertical; 
   }
   
   .editRecipe button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     padding: 10px 15px;
@@ -46,7 +46,7 @@
   }
   
   .editRecipe button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
   }
   
   .editRecipe h3 {

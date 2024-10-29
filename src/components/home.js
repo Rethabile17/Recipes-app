@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Breakfast from "./Breakfast";
 import "./Home.css"
 
 function Home() {
@@ -158,7 +159,7 @@ function Home() {
 
         <div className="site">
           <div>Delicious food site</div>
-          <h1>Categories of Meat</h1>
+          <h1>Categories of deferent Meals</h1>
         </div>
 
         <div className="Searchbar">
@@ -266,15 +267,23 @@ function Home() {
           </div>
         )}
 
-        <div>
+       {/*<div>
           <input
-            className="inputButton2"
+            className="inputButton5"
             type="button"
             onClick={() => navigate("/Registration")}
             value="Logout"
           />
-        </div>
+        </div>*/}
 
+        <div className="add-button">
+        <input
+            className="inputButton5"
+            type="button"
+            onClick={() => navigate("/Add")}
+            value="Add-Recipes"
+          />
+        </div>
     </div>
   );
 }

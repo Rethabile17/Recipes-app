@@ -1,10 +1,11 @@
-/* Home.css */
+
 body{
     height: 100vh;
 }
 .homeContainer {
     padding: 20px;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Arial', sans-serif; 
     display: flex;
     flex-direction: column;
@@ -12,6 +13,9 @@ body{
     align-items: center;
     height: 6%;
     justify-content: center;
+    margin-top: 8%;
+    margin: 8% auto;
+    max-width: 800px;
    
 }
 
@@ -23,7 +27,7 @@ body{
 h1 {
     margin: 10px 0; 
     font-size: 2em; 
-    color: #333; 
+    color: gray; 
 }
 
 .Searchbar {
@@ -42,23 +46,24 @@ h1 {
 }
 
 .inputSearch:focus {
-    border-color: #007bff; 
+    border-color: orangered; 
     outline: none; 
 }
 
 .inputButton3 {
     padding: 10px 20px;
-    background-color: #007bff; 
+    background-color: orangered; 
     color: white;
     border: none;
     border-radius: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 10px; 
     cursor: pointer; 
     transition: background 0.3s; 
 }
 
 .inputButton3:hover {
-    background-color: #0056b3; 
+    background-color: orange; 
 }
 
 .categories {
@@ -137,7 +142,7 @@ button:hover {
     background-color: #c82333; 
 }
 
-/* Profile section styles */
+
 .profileSection {
     margin-bottom: 20px; 
 }
@@ -168,13 +173,7 @@ button:hover {
 }
 
 
-.homeContainer {
-    font-family: 'Arial', sans-serif;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 800px;
-  }
-  
+
   .site {
     text-align: center;
     margin-bottom: 20px;
@@ -231,7 +230,7 @@ button:hover {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .recipeItem img {
@@ -261,10 +260,11 @@ button:hover {
 
 .inputButton5{
     padding: 10px 20px;
-    background-color: red; 
+    background-color:#5cb85c; 
     color: white;
     border: none;
     border-radius: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 10px; 
     cursor: pointer; 
     transition: background 0.3s;  

@@ -1,40 +1,43 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Breakfast.css';
 
 function Breakfast() {
   const [recipes, setRecipes] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/breakfast.json')
+    fetch('/db.json')
       .then(response => response.json())
-      .then(data => setRecipes(data))
+      .then(data => setRecipes(data.breakfast)) 
       .catch(error => console.error('Error fetching recipes:', error));
   }, []);
 
-  const navigate = useNavigate();
   const handleCardClick = (recipe) => {
-    navigate("/recipe", { state: { recipe } }); // Pass the recipe data to the new route
-  }
+    navigate("/recipe", { state: { recipe } });
+  };
 
   const handleEditClick = (recipe) => {
-    navigate("/edit-recipe", { state: { recipe } }); // Navigate to the edit page with the recipe data
-  }
+    navigate("/edit-recipe", { state: { recipe } });
+  };
 
   const handleDeleteClick = (recipe) => {
-    setRecipes(recipes.filter(r => r.foodName !== recipe.foodName)); // Remove the recipe from the list
-  }
+    setRecipes(recipes.filter(r => r.foodName !== recipe.foodName));
+  };
 
   return (
     <div className="App">
-      <h1>Our Recipes</h1>
+      <h1>Our Breakfast Recipes</h1>
       <input className='button1' type="button" onClick={() => navigate("/home")} value="Back to home" />
       <div className="recipeGrid">
         {recipes.map((recipe, index) => (
           <div className="recipeCard" key={index}>
-            <h2>{recipe.foodName}</h2>
-            <img src={recipe.image} alt={recipe.foodName}  onClick={() => handleCardClick(recipe)}/>
-            <button  className='button2' onClick={() => handleEditClick(recipe)}>Edit</button>
+            {/* <h2>{recipe.foodName}</h2> */}
+            <img src={recipe.image} alt={recipe.foodName} onClick={() => handleCardClick(recipe)} />
+            <p><strong>Preparation Time:</strong> {recipe.prepTime}</p>
+            <p><strong>Cooking Time:</strong> {recipe.cookTime}</p>
+            <p><strong>Servings:</strong> {recipe.servings}</p>
+            <button className='button2' onClick={() => handleEditClick(recipe)}>Edit</button>
             <button className='button2 red' onClick={() => handleDeleteClick(recipe)}>Delete</button>
           </div>
         ))}
@@ -44,4 +47,3 @@ function Breakfast() {
 }
 
 export default Breakfast;
-

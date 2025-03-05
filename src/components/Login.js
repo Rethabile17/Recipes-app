@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import Swal from "sweetalert2";
 import "./login.css";
 
 function Login() {
@@ -7,56 +8,72 @@ function Login() {
     const [password, setPassword] = useState("");
     const [emailError, setEmailError] = useState("");
     const [passwordError, setPasswordError] = useState("");
-    const [loginError, setLoginError] = useState("");
 
     const navigate = useNavigate();
 
     const validateForm = () => {
-        setEmailError('');
-        setPasswordError('');
-        setLoginError('');
+        setEmailError("");
+        setPasswordError("");
 
         let isValid = true;
 
-        if (email.trim() === '') {
-            setEmailError('Please enter your email');
+        if (!email.trim()) {
+            setEmailError("Please enter your email");
             isValid = false;
         } else if (!/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email)) {
-            setEmailError('Please enter a valid email');
+            setEmailError("Please enter a valid email");
             isValid = false;
         }
 
-        if (password.trim() === '') {
-            setPasswordError('Please enter a password');
+        if (!password.trim()) {
+            setPasswordError("Please enter a password");
             isValid = false;
         } else if (password.length < 8) {
-            setPasswordError('The password must be 8 characters or longer');
+            setPasswordError("The password must be 8 characters or longer");
             isValid = false;
         }
 
         return isValid;
     };
 
-    const onLoginClick = () => {
-        if (validateForm()) {
-            const storedUser = JSON.parse(localStorage.getItem("user"));
+    const onLoginClick = async () => {
+        if (!validateForm()) return;
 
-            if (storedUser) {
-                if (storedUser.email === email && storedUser.password === password) {
-                    console.log("Login successful");
-                    localStorage.setItem("loggedInUser", JSON.stringify(storedUser));
-                    navigate('/home');
-                } else {
-                    setLoginError("Invalid email or password");
-                }
+        const storedUser = JSON.parse(localStorage.getItem("user"));
+
+        if (storedUser) {
+            if (storedUser.email === email && storedUser.password === password) {
+                Swal.fire({
+                    title: "Login Successful!",
+                    text: "Welcome back!",
+                    icon: "success",
+                    confirmButtonText: "Proceed",
+                }).then(() => {
+                    navigate("/home"); 
+                });
             } else {
-                setLoginError("No user found. Please register first.");
+                Swal.fire({
+                    title: "Login Unsuccessful!",
+                    text: "Invalid email or password.",
+                    icon: "error",
+                    confirmButtonText: "Try Again",
+                });
             }
+        } else {
+            Swal.fire({
+                title: "No User Found!",
+                text: "Please register first.",
+                icon: "warning",
+                confirmButtonText: "Register",
+            }).then(() => {
+                navigate("/registration");
+            });
         }
     };
 
     return (
         <div className="mainContainer">
+            <div className="Container">
             <div className="titleContainer">
                 <h1>Login</h1>
             </div>
@@ -82,15 +99,15 @@ function Login() {
             <div className="inputContainer">
                 <input
                     className="inputButton"
-                    type="button" 
-                    onClick={onLoginClick} 
+                    type="button"
+                    onClick={onLoginClick}
                     value="Submit"
                 />
-                {loginError && <div className="errorLabel">{loginError}</div>}
             </div>
             <div className="inputContainer text">
-                Don't have an account? 
+                Don't have an account?
                 <Link to="/registration" className="registerLink"> Register here.</Link>
+            </div>
             </div>
         </div>
     );

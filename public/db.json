@@ -1,0 +1,620 @@
+{
+  "recipes": [
+    {
+      "foodName": "French Toast",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.aM8oUWXkMiLwBiQi4ewayQHaE7&pid=Api&P=0&h=220",
+      "ingredients": [
+        "4 large eggs",
+        "2/3 cup milk",
+        "2 teaspoons cinnamon",
+        "8 thick slices 2-day-old bread (better if slightly stale)",
+        "Butter (can substitute vegetable oil)",
+        "Maple syrup",
+        "2 teaspoons freshly grated orange zest",
+        "1/4 cup triple sec (optional)",
+        "Fresh berries"
+      ],
+      "method": [
+        "In a medium bowl, whisk together the eggs, milk, and cinnamon. Stir in the orange zest and/or triple sec if using. Whisk the mixture until well blended and pour into a shallow bowl, wide enough to place a slice of the bread you will be using.",
+        "Place each slice of bread into the milk-egg mixture, allowing the bread to soak in some of it.",
+        "Melt some butter in a large skillet over medium-high heat. Shake off the excess egg mixture from the bread and place the bread slices onto the skillet. Brown on one side, then flip and brown the other side."
+      ],
+      "serve": "Serve the French toast hot with butter, maple syrup, and/or fresh berries.",
+      "id": "321a",
+      "cookTime": "10 minutes",
+      "prepTime": "5 minutes",
+      "servings": "4 servings"
+    },
+    {
+      "foodName": "Pancakes",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.kDl2JuPZ3tRVTWGQq260bgHaKX&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1 1/2 cups all-purpose flour",
+        "3 1/2 teaspoons baking powder",
+        "1 teaspoon salt",
+        "1 tablespoon white sugar",
+        "1 1/4 cups milk",
+        "1 egg",
+        "3 tablespoons butter, melted",
+        "1 teaspoon vanilla extract",
+        "Butter or oil for cooking",
+        "Maple syrup",
+        "Fresh fruit (optional)"
+      ],
+      "method": [
+        "In a large bowl, sift together the flour, baking powder, salt, and sugar.",
+        "Make a well in the center and pour in the milk, egg, melted butter, and vanilla extract. Mix until smooth.",
+        "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+        "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot."
+      ],
+      "serve": "Serve the pancakes warm with butter, maple syrup, and fresh fruit if desired.",
+      "id": "71c7",
+      "cookTime": "10 minutes",
+      "prepTime": "10 minutes",
+      "servings": "4"
+    },
+    {
+      "foodName": "Spaghetti Bolognese",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.YixleAz2dzjXRd3FGfaIlwAAAA&pid=Api&P=0&h=220",
+      "ingredients": [
+        "400g spaghetti",
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "500g ground beef",
+        "1 can (400g) crushed tomatoes",
+        "2 tablespoons tomato paste",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried basil",
+        "Salt and pepper to taste",
+        "Grated Parmesan cheese for serving"
+      ],
+      "method": [
+        "Cook the spaghetti according to package instructions. Drain and set aside.",
+        "Heat olive oil in a large pan over medium heat. Add onion and garlic, sauté until soft.",
+        "Add ground beef and cook until browned.",
+        "Stir in crushed tomatoes, tomato paste, oregano, basil, salt, and pepper. Simmer for 15-20 minutes.",
+        "Serve the sauce over the cooked spaghetti."
+      ],
+      "serve": "Top with grated Parmesan cheese and serve hot.",
+      "id": "c158",
+      "cookTime": "30 minutes",
+      "prepTime": "10 minutes",
+      "servings": "4"
+    },
+    {
+      "foodName": "Chicken Caesar Salad",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.jHv25J4qUyF5wnjiWf_jfwHaHa&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 chicken breasts, grilled and sliced",
+        "1 large head of romaine lettuce, chopped",
+        "1/2 cup Caesar dressing",
+        "1/2 cup croutons",
+        "1/4 cup grated Parmesan cheese",
+        "Salt and pepper to taste"
+      ],
+      "method": [
+        "In a large bowl, combine chopped romaine lettuce, croutons, and grated Parmesan cheese.",
+        "Add grilled chicken slices on top.",
+        "Drizzle with Caesar dressing and toss until evenly coated.",
+        "Season with salt and pepper to taste."
+      ],
+      "serve": "Serve immediately with extra Parmesan cheese if desired.",
+      "id": "4e64",
+      "cookTime": "15 minutes",
+      "prepTime": "10 minutes",
+      "servings": "2"
+    },
+    {
+      "foodName": "Vegetable Fried Rice",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.ZDGDzgMfgy4T8xmnprQltgHaHa&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 cups cooked rice (preferably day-old)",
+        "2 tablespoons vegetable oil",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 carrot, diced",
+        "1 bell pepper, diced",
+        "1 cup frozen peas",
+        "2 tablespoons soy sauce",
+        "1 tablespoon oyster sauce",
+        "2 eggs, lightly beaten",
+        "Green onions, chopped (optional)"
+      ],
+      "method": [
+        "Heat vegetable oil in a large pan or wok over medium-high heat. Add onion and garlic, sauté until soft.",
+        "Add diced carrot, bell pepper, and peas. Stir-fry for 3-4 minutes.",
+        "Push the vegetables to the side of the pan and pour in the beaten eggs. Scramble until fully cooked.",
+        "Add the cooked rice, soy sauce, and oyster sauce. Stir-fry until everything is well combined and heated through.",
+        "Garnish with chopped green onions if desired."
+      ],
+      "serve": "Serve hot as a main dish or side.",
+      "id": "eef0",
+      "cookTime": "15 minutes",
+      "prepTime": "5 minutes",
+      "servings": "4"
+    },
+    {
+      "foodName": "Classic Margherita Pizza",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.JgT2nYsBp8Yf0XZKkV10sgHaFs&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1 pizza dough",
+        "1/2 cup tomato sauce",
+        "200g fresh mozzarella cheese, sliced",
+        "1/4 cup fresh basil leaves",
+        "1 tablespoon olive oil",
+        "Salt and pepper to taste"
+      ],
+      "method": [
+        "Preheat oven to 475°F (245°C).",
+        "Roll out the pizza dough on a floured surface to your desired thickness.",
+        "Spread tomato sauce evenly over the dough.",
+        "Arrange mozzarella slices on top of the sauce.",
+        "Bake in the preheated oven for 10-15 minutes, or until the crust is golden and the cheese is bubbly.",
+        "Garnish with fresh basil leaves and drizzle with olive oil."
+      ],
+      "serve": "Season with salt and pepper before serving hot.",
+      "id": "7535",
+      "cookTime": "15 minutes",
+      "prepTime": "10 minutes",
+      "servings": "2"
+    },
+    {
+      "foodName": "Chocolate Brownies",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.-fLP1Y5PBw8v-NTF5RF7lwHaHa&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1/2 cup unsalted butter, melted",
+        "1 cup white sugar",
+        "2 large eggs",
+        "1 teaspoon vanilla extract",
+        "1/3 cup unsweetened cocoa powder",
+        "1/2 cup all-purpose flour",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon baking powder"
+      ],
+      "method": [
+        "Preheat oven to 350°F (175°C). Grease and flour an 8-inch square pan.",
+        "In a large bowl, mix together the melted butter, sugar, eggs, and vanilla.",
+        "Stir in cocoa powder, flour, salt, and baking powder until well combined.",
+        "Spread the batter into the prepared pan.",
+        "Bake in the preheated oven for 20-25 minutes, or until a toothpick inserted into the center comes out clean."
+      ],
+      "serve": "Let cool before cutting into squares. Serve with a scoop of vanilla ice cream if desired.",
+      "id": "c2be",
+      "cookTime": "25 minutes",
+      "prepTime": "10 minutes",
+      "servings": "16"
+    },
+    {
+      "foodName": "Chocolate Chip Cookies",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.DvtMOyIlvS9WIwvBA_EI2AAAAA&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 1/4 cups all-purpose flour",
+        "1/2 teaspoon baking soda",
+        "1 cup unsalted butter, room temperature",
+        "1/2 cup granulated sugar",
+        "1 cup packed light-brown sugar",
+        "1 teaspoon salt",
+        "2 teaspoons vanilla extract",
+        "2 large eggs",
+        "2 cups semisweet and/or milk chocolate chips"
+      ],
+      "method": [
+        "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper.",
+        "In a bowl, whisk together the flour and baking soda. Set aside.",
+        "In a separate bowl, cream together the butter, granulated sugar, and brown sugar until light and fluffy. Add salt, vanilla, and eggs. Mix until combined.",
+        "Gradually add the flour mixture, then stir in the chocolate chips.",
+        "Drop tablespoon-sized balls of dough onto the prepared baking sheets.",
+        "Bake in the preheated oven for 10-12 minutes, or until golden brown.",
+        "Cool on the baking sheets for a few minutes before transferring to a wire rack."
+      ],
+      "serve": "Enjoy warm with a glass of milk.",
+      "id": "f34a",
+      "cookTime": "12 minutes",
+      "prepTime": "15 minutes",
+      "servings": "24"
+    },
+    {
+      "id": "092d",
+      "foodName": "fish & chips",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.bpwbigsVyJiYTvFOS9URHAHaE9&pid=Api&P=0&h=220",
+      "ingredients": " vtaykng ygtyfb h89uh ctrdxedfuty",
+      "method": "bytfed5  rtefs47uyi8uhnhcv",
+      "PreparationTime": "20 min",
+      "cookingTime": "15 min",
+      "servings": "4 people",
+      "category": "lunch"
+    },
+    {
+      "id": "3d70",
+      "foodName": "qwsertgyhjk",
+      "image": "https://tse3.mm.bing.net/th?id=OIP._KSLE8PO2nJ1-yMzdl3U1QHaE1&pid=Api&P=0&h=220",
+      "ingredients": "qwesdrt,qwasedfgh,sdfghnm",
+      "method": "sdfgtrfghf,sdfg,wesrtj,QWERTM,RTYUMRET,rtujyrgrest",
+      "PreparationTime": "20 min",
+      "cookingTime": "30min",
+      "servings": "3",
+      "category": "recipes"
+    },
+    {
+      "id": "3f67",
+      "foodName": "qwsdefgbhj",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.bpwbigsVyJiYTvFOS9URHAHaE9&pid=Api&P=0&h=220",
+      "ingredients": "23r5t,esrtghj,rtygj,qwertyjkm,`12qwesrtfghjrtyhtfgg,",
+      "method": "qwertyujkl,werrrrrrtttttttttttttjjjjuuuuuu,tytytytytytytytytyty,ererererererererererererererererer",
+      "PreparationTime": "20 min",
+      "cookingTime": "30min",
+      "servings": "4 ",
+      "category": "breakfast"
+    },
+    {
+      "id": "05ae",
+      "foodName": "12qwerfghyqwertfjdWTMJRTHY",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.f2-MvvSGLzfQ5QbvzmNaXwHaJQ&pid=Api&P=0&h=220",
+      "ingredients": "3KERJRTGKDKfgrjfj,erfklrkelf,kfjewrlkjfwe",
+      "method": "ewjkhnkjrfn,fekljrejgklrg,dweqklwkqel,ewlqjfklngvbbqw,qwedfr",
+      "PreparationTime": "20 min",
+      "cookingTime": "30min",
+      "servings": "4 ",
+      "category": "dinner"
+    },
+    {
+      "id": "606f",
+      "foodName": "fish & chips",
+      "image": "https://tse3.mm.bing.net/th?id=OIP._KSLE8PO2nJ1-yMzdl3U1QHaE1&pid=Api&P=0&h=220",
+      "ingredients": "qewg  e3t5rj  e5yhrdt5awfghj 7   eq3wuj6cct     ",
+      "method": "1q rtfuyhjisdfghjkl ertyu1`qw2erweqawtzghi;'sertdfyunm,",
+      "PreparationTime": "20 min",
+      "cookingTime": "30min",
+      "servings": "5",
+      "category": "breakfast"
+    }
+  ],
+  "Breakfast": [
+    {
+      "foodName": "Avocado Toast",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.tD_mS-oA5BIOD7mHhrw0PgHaLH&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 slices of whole-grain bread",
+        "1 ripe avocado",
+        "Salt and pepper to taste",
+        "1 teaspoon lemon juice",
+        "Optional toppings: cherry tomatoes, poached egg, red pepper flakes, feta cheese"
+      ],
+      "method": [
+        "Toast the bread slices to your desired level of crispness.",
+        "In a small bowl, mash the avocado with a fork. Stir in salt, pepper, and lemon juice.",
+        "Spread the mashed avocado evenly over the toasted bread.",
+        "Add optional toppings like cherry tomatoes, a poached egg, red pepper flakes, or feta cheese."
+      ],
+      "serve": "Serve immediately as a healthy and filling breakfast.",
+      "id": "7c65",
+      "cookTime": "5 minutes",
+      "prepTime": "5 minutes",
+      "servings": "1"
+    },
+    {
+      "foodName": "Smoothie Bowl",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.96gOJxUZHn2YYjEmapQIFgHaLG&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1 frozen banana",
+        "1/2 cup frozen berries (strawberries, blueberries, etc.)",
+        "1/2 cup Greek yogurt",
+        "1/4 cup milk or juice",
+        "Toppings: granola, sliced fruit, chia seeds, nuts, honey"
+      ],
+      "method": [
+        "In a blender, combine the frozen banana, frozen berries, Greek yogurt, and milk or juice. Blend until smooth.",
+        "Pour the smoothie into a bowl.",
+        "Top with granola, sliced fruit, chia seeds, nuts, and a drizzle of honey."
+      ],
+      "serve": "Enjoy immediately for a refreshing breakfast.",
+      "id": "5253",
+      "cookTime": "5 minutes",
+      "prepTime": "5 minutes",
+      "servings": "1"
+    },
+    {
+      "foodName": "Omelette",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.KHaBiLsAfru_iyx_iSuI4gHaE8&pid=Api&P=0&h=220",
+      "ingredients": [
+        "3 large eggs",
+        "Salt and pepper to taste",
+        "2 tablespoons milk",
+        "1/4 cup shredded cheese",
+        "1/4 cup diced vegetables (bell peppers, onions, mushrooms, etc.)",
+        "2 tablespoons butter or oil",
+        "Optional fillings: diced ham, bacon, spinach, etc."
+      ],
+      "method": [
+        "In a bowl, whisk the eggs with milk, salt, and pepper.",
+        "Heat butter or oil in a skillet over medium heat. Pour in the egg mixture.",
+        "As the eggs set, gently pull the edges toward the center, letting uncooked egg flow to the edges.",
+        "Once the eggs are almost set, sprinkle cheese and fillings over one half of the omelette.",
+        "Fold the omelette in half and cook for another minute, then slide onto a plate."
+      ],
+      "serve": "Serve hot with toast or fresh fruit.",
+      "id": "8cb0",
+      "cookTime": "5 minutes",
+      "prepTime": "5 minutes",
+      "servings": "1"
+    }
+  ],
+  "dinner": [
+    {
+      "foodName": "Bacon-Wrapped Meatloaf",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.K-ivKyRGCIh--RDzjZoO2wHaE8&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1 1/2 lbs ground beef",
+        "1/2 lb ground pork",
+        "1/2 cup breadcrumbs",
+        "1/2 cup whole milk",
+        "1/2 cup grated Parmesan cheese",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 egg",
+        "1 tablespoon Worcestershire sauce",
+        "Salt and pepper to taste",
+        "8-10 slices of bacon",
+        "1/4 cup ketchup"
+      ],
+      "method": [
+        "Preheat oven to 375°F (190°C).",
+        "In a large bowl, combine ground beef, ground pork, breadcrumbs, milk, Parmesan cheese, onion, garlic, egg, Worcestershire sauce, salt, and pepper. Mix well.",
+        "Form the mixture into a loaf shape and place it in a baking dish.",
+        "Wrap the loaf with bacon slices, overlapping slightly. Spread ketchup on top.",
+        "Bake for 1 hour or until the internal temperature reaches 160°F (70°C)."
+      ],
+      "serve": "Serve the bacon-wrapped meatloaf with mashed potatoes and gravy.",
+      "id": "eef0",
+      "cookTime": "1 hour",
+      "prepTime": "15 minutes",
+      "servings": "4-6"
+    },
+    {
+      "foodName": "Loaded Nachos",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.i1EDisTevt34KYIPr9WQ-gHaE8&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1 bag tortilla chips",
+        "1 lb ground beef",
+        "1 packet taco seasoning",
+        "1/2 cup water",
+        "2 cups shredded cheddar cheese",
+        "1/2 cup sour cream",
+        "1/4 cup sliced jalapeños",
+        "1/2 cup diced tomatoes",
+        "1/4 cup chopped green onions",
+        "1/4 cup black olives, sliced",
+        "1/2 cup guacamole"
+      ],
+      "method": [
+        "Preheat oven to 350°F (175°C).",
+        "In a skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+        "Add taco seasoning and water to the beef. Simmer for 5 minutes.",
+        "Spread tortilla chips on a large baking sheet. Top with seasoned beef and shredded cheddar cheese.",
+        "Bake in the oven for 10-15 minutes or until the cheese is melted and bubbly.",
+        "Remove from oven and top with sour cream, jalapeños, tomatoes, green onions, black olives, and guacamole."
+      ],
+      "serve": "Serve the loaded nachos immediately with your favorite dipping sauces.",
+      "id": "3cbd",
+      "cookTime": "25 minutes",
+      "prepTime": "10 minutes",
+      "servings": "4"
+    },
+    {
+      "foodName": "Deep-Fried Mac and Cheese Balls",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.wcgrY0Ouy2FiBD50rn-lowHaHa&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 cups leftover macaroni and cheese, chilled",
+        "1/2 cup flour",
+        "2 eggs, beaten",
+        "1 cup breadcrumbs",
+        "1/4 cup grated Parmesan cheese",
+        "Vegetable oil for frying",
+        "Ranch dressing (for dipping)"
+      ],
+      "method": [
+        "Heat oil in a deep fryer or large pot to 350°F (175°C).",
+        "Scoop chilled macaroni and cheese into balls and place on a baking sheet.",
+        "Coat each ball in flour, then dip in beaten eggs, and roll in a mixture of breadcrumbs and Parmesan cheese.",
+        "Fry the balls in hot oil until golden brown and crispy, about 3-4 minutes.",
+        "Drain on paper towels."
+      ],
+      "serve": "Serve the deep-fried mac and cheese balls hot with ranch dressing for dipping.",
+      "id": "97be",
+      "cookTime": "10 minutes",
+      "prepTime": "15 minutes",
+      "servings": "6"
+    },
+    {
+      "foodName": "Double Cheeseburger",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.XULephKEEE5Obq11QTSTiQHaE8&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 lbs ground beef",
+        "4 slices cheddar cheese",
+        "4 slices American cheese",
+        "4 sesame seed burger buns",
+        "8 slices bacon, cooked",
+        "1/4 cup mayonnaise",
+        "1/4 cup ketchup",
+        "1/4 cup yellow mustard",
+        "Lettuce leaves",
+        "Sliced tomatoes",
+        "Pickle slices",
+        "Salt and pepper to taste"
+      ],
+      "method": [
+        "Preheat grill or stover pan over medium-high heat.",
+        "Divide ground beef into 8 equal portions and form into patties. Season with salt and pepper.",
+        "Grill patties for 4-5 minutes per side or until desired doneness.",
+        "During the last minute of cooking, place a slice of cheddar and a slice of American cheese on 4 of the patties. Stack the other patties on top to form double burgers.",
+        "Toast burger buns on the grill until golden brown.",
+        "Assemble the burgers with mayonnaise, ketchup, mustard, lettuce, tomatoes, pickles, and bacon."
+      ],
+      "serve": "Serve the double cheeseburgers with fries and a cold soda.",
+      "id": "fc96",
+      "cookTime": "15 minutes",
+      "prepTime": "10 minutes",
+      "servings": "4"
+    },
+    {
+      "foodName": "Chicken Alfredo Pizza",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.Fdi4l5z-q6rXrdP7Hx9kbQHaLF&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1 pizza dough",
+        "1 cup Alfredo sauce",
+        "1 1/2 cups cooked chicken breast, shredded",
+        "1 cup shredded mozzarella cheese",
+        "1/2 cup shredded Parmesan cheese",
+        "1/4 cup cooked bacon, crumbled",
+        "1/4 cup chopped green onions",
+        "1 tablespoon olive oil",
+        "Salt and pepper to taste"
+      ],
+      "method": [
+        "Preheat oven to 475°F (245°C).",
+        "Roll out the pizza dough on a floured surface and place on a pizza stone or baking sheet.",
+        "Spread Alfredo sauce evenly over the dough.",
+        "Top with shredded chicken, mozzarella cheese, Parmesan cheese, bacon, and green onions.",
+        "Drizzle with olive oil and season with salt and pepper.",
+        "Bake for 12-15 minutes or until the crust is golden and the cheese is bubbly."
+      ],
+      "serve": "Serve the chicken Alfredo pizza hot with a side of garlic bread.",
+      "id": "36be",
+      "cookTime": "15 minutes",
+      "prepTime": "10 minutes",
+      "servings": "4"
+    }
+  ],
+  "lunch": [
+    {
+      "foodName": "Grilled Chicken Salad",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.RLPafTOUvKLOV2wXpGhuwQHaFn&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 chicken breasts",
+        "4 cups mixed greens",
+        "1/2 cup cherry tomatoes, halved",
+        "1/4 cup cucumber, sliced",
+        "1/4 cup red onion, thinly sliced",
+        "1/4 cup feta cheese, crumbled",
+        "2 tablespoons olive oil",
+        "1 tablespoon balsamic vinegar",
+        "Salt and pepper to taste"
+      ],
+      "method": [
+        "Season the chicken breasts with salt and pepper, and grill over medium heat until fully cooked. Let cool and slice.",
+        "In a large bowl, combine mixed greens, cherry tomatoes, cucumber, and red onion.",
+        "Top with grilled chicken slices and sprinkle with feta cheese.",
+        "In a small bowl, whisk together olive oil and balsamic vinegar.",
+        "Drizzle the dressing over the salad and toss to combine."
+      ],
+      "serve": "Serve the grilled chicken salad immediately with your favorite bread or on its own.",
+      "cookTime": "15 minutes",
+      "preparationTime": "10 minutes",
+      "servings": 2,
+      "id": "653c"
+    },
+    {
+      "foodName": "Quinoa and Vegetable Stir-Fry",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.bDQTM5dIeeR6wAu_Rnp7lQHaGD&pid=Api&P=0&h=220",
+      "ingredients": [
+        "1 cup quinoa, rinsed",
+        "2 cups water",
+        "1 tablespoon olive oil",
+        "1 bell pepper, sliced",
+        "1 zucchini, sliced",
+        "1 cup broccoli florets",
+        "2 cloves garlic, minced",
+        "2 tablespoons soy sauce",
+        "1 tablespoon sesame oil",
+        "Salt and pepper to taste"
+      ],
+      "method": [
+        "Cook quinoa in water according to package instructions. Set aside.",
+        "In a large pan, heat olive oil over medium heat. Add garlic and sauté for 1 minute.",
+        "Add bell pepper, zucchini, and broccoli to the pan. Stir-fry until tender-crisp.",
+        "Add cooked quinoa, soy sauce, and sesame oil to the vegetables. Stir to combine and heat through.",
+        "Season with salt and pepper to taste."
+      ],
+      "serve": "Serve the quinoa and vegetable stir-fry hot, garnished with sesame seeds if desired.",
+      "cookTime": "20 minutes",
+      "preparationTime": "10 minutes",
+      "servings": 4,
+      "id": "ef8b"
+    },
+    {
+      "foodName": "Tomato Basil Soup",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.hGSKG0y3zLAUy7DaF2fuXAHaLG&pid=Api&P=0&h=220",
+      "ingredients": [
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "4 cups diced tomatoes",
+        "2 cups vegetable broth",
+        "1/2 cup fresh basil leaves, chopped",
+        "Salt and pepper to taste",
+        "1/4 cup heavy cream (optional)"
+      ],
+      "method": [
+        "In a large pot, heat olive oil over medium heat. Add onion and garlic, sauté until soft.",
+        "Add diced tomatoes and vegetable broth to the pot. Bring to a boil, then reduce heat and simmer for 15 minutes.",
+        "Use an immersion blender to puree the soup until smooth.",
+        "Stir in fresh basil and season with salt and pepper.",
+        "If using, add heavy cream and heat through."
+      ],
+      "serve": "Serve the tomato basil soup hot with a side of crusty bread.",
+      "cookTime": "30 minutes",
+      "preparationTime": "10 minutes",
+      "servings": 4,
+      "id": "b5b0"
+    },
+    {
+      "foodName": "Veggie Pita Sandwich",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.n5nj6vuuvsCNMak3Tgt1egHaE8&pid=Api&P=0&h=220",
+      "ingredients": [
+        "4 whole wheat pita pockets",
+        "1/2 cup hummus",
+        "1 cucumber, sliced",
+        "1 tomato, sliced",
+        "1/4 cup red onion, thinly sliced",
+        "1/2 cup shredded carrots",
+        "1/4 cup crumbled feta cheese",
+        "2 tablespoons tzatziki sauce"
+      ],
+      "method": [
+        "Cut the pita pockets in half and spread hummus inside each pocket.",
+        "Fill each pita half with cucumber, tomato, red onion, shredded carrots, and crumbled feta cheese.",
+        "Drizzle tzatziki sauce over the vegetables."
+      ],
+      "serve": "Serve the veggie pita sandwiches immediately with a side of fresh fruit or salad.",
+      "cookTime": "5 minutes",
+      "preparationTime": "10 minutes",
+      "servings": 4,
+      "id": "a431"
+    },
+    {
+      "foodName": "Turkey and Avocado Wrap",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.Yxz4GOJsBYxuYBjdzi_qUQHaFF&pid=Api&P=0&h=220",
+      "ingredients": [
+        "4 whole wheat tortillas",
+        "8 slices of deli turkey",
+        "1 avocado, sliced",
+        "1/2 cup shredded lettuce",
+        "1/4 cup shredded cheddar cheese",
+        "2 tablespoons mayonnaise",
+        "1 tablespoon Dijon mustard"
+      ],
+      "method": [
+        "Spread mayonnaise and Dijon mustard evenly over each tortilla.",
+        "Layer turkey slices, avocado, lettuce, and cheddar cheese on each tortilla.",
+        "Roll up the tortillas tightly, securing with toothpicks if necessary.",
+        "Cut the wraps in half."
+      ],
+      "serve": "Serve the turkey and avocado wraps with a side of fresh fruit or chips.",
+      "cookTime": "10 minutes",
+      "preparationTime": "10 minutes",
+      "servings": 4,
+      "id": "176a"
+    }
+  ]
+}

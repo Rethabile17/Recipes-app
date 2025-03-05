@@ -62,7 +62,7 @@ function App() {
         <Route path="/lunch" element={<Lunch />} />
         <Route path="/dinner" element={<Dinner />} />
         <Route path="/recipe" element={<RecipeDetail />} />
-        <Route path="/edit-recipe" element={<EditRecipe />} />
+        <Route path="/edit" element={<EditRecipe />} />
         <Route path="/add" element={<Add recipes={recipes} setRecipes={setRecipes} />} />
       </Routes>
     </BrowserRouter>

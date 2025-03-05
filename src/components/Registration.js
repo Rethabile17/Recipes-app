@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import Swal from 'sweetalert2';
 import "./Registration.css";
 
 function Registration() {
@@ -39,11 +40,13 @@ function Registration() {
             setPasswordError('The password must be 8 characters or longer');
             isValid = false;
         }
+
         return isValid;
     };
 
     const onButtonClick = () => {
         if (validateForm()) {
+          
             const userData = {
                 name: name,
                 email: email,
@@ -52,13 +55,31 @@ function Registration() {
 
             localStorage.setItem("user", JSON.stringify(userData));
             console.log("User registered:", userData);
-            navigate('/Login');
+
+           
+            Swal.fire({
+                title: "Registration Successful!",
+                text: "Welcome to the platform!",
+                icon: "success",
+                confirmButtonText: "Proceed",
+            }).then(() => {
+                
+                navigate("/");
+            });
+        } else {
+            
+            Swal.fire({
+                title: "Registration Unsuccessful!",
+                text: "Please fix the errors in the form.",
+                icon: "error",
+                confirmButtonText: "Try Again",
+            });
         }
     };
 
     return (
         <div className="mainContainer">
-            <div className="mainTitle">
+            <div className="Register-Container">
                 <h1 className="title1">Registration</h1>
                 <div className="inputName">
                     <input
@@ -66,7 +87,7 @@ function Registration() {
                         value={name}
                         placeholder="Name here"
                         onChange={(ev) => setName(ev.target.value)}
-                        className="inputBox" // Apply the inputBox class
+                        className="inputBox" 
                     />
                     <label className="errorLabel">{nameError}</label>
 
@@ -75,7 +96,7 @@ function Registration() {
                         value={email}
                         placeholder="Email here"
                         onChange={(ev) => setEmail(ev.target.value)}
-                        className="inputBox" // Apply the inputBox class
+                        className="inputBox" 
                     />
                     <label className="errorLabel">{emailError}</label>
 
@@ -84,7 +105,7 @@ function Registration() {
                         value={password}
                         placeholder="Password here"
                         onChange={(ev) => setPassword(ev.target.value)}
-                        className="inputBox" // Apply the inputBox class
+                        className="inputBox" 
                     />
                     <label className="errorLabel">{passwordError}</label>
                 </div>
@@ -97,9 +118,9 @@ function Registration() {
                     />
                 </div>
                 <div className="inputContainer text">
-                Already have  an account? 
-                <Link to="/" className="registerLink"> Register here.</Link>
-            </div>
+                    Already have an account? 
+                    <Link to="/" className="registerLink"> Login here.</Link>
+                </div>
             </div>
         </div>
     );

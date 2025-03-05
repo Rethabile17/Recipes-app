@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Add.css"; // Your CSS file for styling
+import axios from "axios";
+import "./Add.css";
 
-function Add({ recipes, setRecipes }) {
+function Add() {
   const navigate = useNavigate();
 
   const [newRecipe, setNewRecipe] = useState({
@@ -10,36 +11,51 @@ function Add({ recipes, setRecipes }) {
     image: "",
     ingredients: "",
     method: "",
-    category: "dinner", // Default category
+    PreparationTime: "",
+    cookingTime: "",
+    servings: "",
+    category: "breakfast",
   });
+  const [recipe, setRecipe] = useState([]);
+  const [errors, setErrors] = useState({});
 
   const onAddRecipeChange = (e) => {
-    const { name, value } = e.target;
-    setNewRecipe((prevRecipe) => ({
-      ...prevRecipe,
-      [name]: value,
-    }));
+    setNewRecipe({ ...newRecipe, [e.target.name]: e.target.value });
   };
 
-  const onAddRecipe = () => {
-    const recipeToAdd = {
-      ...newRecipe,
-      ingredients: newRecipe.ingredients.split(",").map((ingredient) => ingredient.trim()), // Trim whitespace
-      method: newRecipe.method.split(".").map((step) => step.trim()),
-    };
+  const validate = () => {
+    let errors = {};
+    if (!newRecipe.foodName) errors.foodName = "Food name is required.";
+    if (!newRecipe.image) errors.image = "Image URL is required.";
+    if (!newRecipe.ingredients) errors.ingredients = "Ingredients are required.";
+    if (!newRecipe.method) errors.method = "Method is required.";
+    if (!newRecipe.PreparationTime) errors.PreparationTime = "Preparation time is required.";
+    if (!newRecipe.cookingTime) errors.cookingTime = "Cooking time is required.";
+    if (!newRecipe.servings) errors.servings = "Number of servings is required.";
+    return errors;
+  };
 
-    // Update the recipes state and local storage
-    setRecipes((prevRecipes) => {
-      const updatedRecipes = {
-        ...prevRecipes,
-        [newRecipe.category]: [...prevRecipes[newRecipe.category], recipeToAdd],
-      };
-      localStorage.setItem("recipes", JSON.stringify(updatedRecipes)); // Update localStorage
-      return updatedRecipes;
-    });
+  const onAddRecipe = async () => {
+    const errors = validate();
+    if (Object.keys(errors).length === 0) {
+      try {
+        const response = await axios.post(
+          "http://localhost:3000/recipes",
+          newRecipe
+        );
 
-    // Navigate back to home
-    navigate("/home");
+
+        
+
+        setRecipe([...recipe, response.data]);
+        window.alert("Submitted successfully!");
+        navigate("/home");
+      } catch (error) {
+        window.alert("Submission failed. Please try again.");
+      }
+    } else {
+      setErrors(errors);
+    }
   };
 
   return (
@@ -53,6 +69,7 @@ function Add({ recipes, setRecipes }) {
           value={newRecipe.foodName}
           onChange={onAddRecipeChange}
         />
+        {errors.foodName && <p className="error">{errors.foodName}</p>}
       </label>
       <label>
         Image URL:
@@ -62,6 +79,7 @@ function Add({ recipes, setRecipes }) {
           value={newRecipe.image}
           onChange={onAddRecipeChange}
         />
+        {errors.image && <p className="error">{errors.image}</p>}
       </label>
       <label>
         Ingredients (comma-separated):
@@ -70,6 +88,7 @@ function Add({ recipes, setRecipes }) {
           value={newRecipe.ingredients}
           onChange={onAddRecipeChange}
         />
+        {errors.ingredients && <p className="error">{errors.ingredients}</p>}
       </label>
       <label>
         Method (period-separated):
@@ -78,7 +97,39 @@ function Add({ recipes, setRecipes }) {
           value={newRecipe.method}
           onChange={onAddRecipeChange}
         />
+        {errors.method && <p className="error">{errors.method}</p>}
       </label>
+      <label>
+        Preparation Time:
+        <input
+          type="text"
+          name="PreparationTime"
+          value={newRecipe.PreparationTime}
+          onChange={onAddRecipeChange}
+        />
+        {errors.PreparationTime && <p className="error">{errors.PreparationTime}</p>}
+      </label>
+      <label>
+        Cooking Time:
+        <input
+          type="text"
+          name="cookingTime"
+          value={newRecipe.cookingTime}
+          onChange={onAddRecipeChange}
+        />
+        {errors.cookingTime && <p className="error">{errors.cookingTime}</p>}
+      </label>
+      <label>
+        Servings:
+        <input
+          type="text"
+          name="servings"
+          value={newRecipe.servings}
+          onChange={onAddRecipeChange}
+        />
+        {errors.servings && <p className="error">{errors.servings}</p>}
+      </label>
+
       <label>
         Category:
         <select name="category" value={newRecipe.category} onChange={onAddRecipeChange}>

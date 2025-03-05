@@ -22,8 +22,8 @@ function EditRecipe() {
       method,
       serve,
     };
-    // Here you can add the logic to update the recipe in your backend
-    navigate("/lunch"); // Navigate back to the Lunch page
+    
+    navigate("/lunch"); 
   }
 
   return (
